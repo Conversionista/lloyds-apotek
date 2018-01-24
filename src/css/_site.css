@@ -1,0 +1,447 @@
+/* ==========================================================================
+   Major site components
+   ========================================================================== */
+
+/* Pseudo Link Accordion */
+
+.user__view-more a.collapsed:after {
+    content: 'Visa mitt högkostnadsskydd ▼';
+}
+
+.user__view-more a:not(.collapsed):after {
+    content: 'Visa mindre ▲';
+}
+
+
+/* Mina fullmakter Other visa hogkostnadsskydd */
+
+.hogkostnadsskydd>a.collapsed:after {
+    content: 'Visa högkostnadsskydd ▼';
+}
+
+.hogkostnadsskydd>a:not(.collapsed):after {
+    content: 'Dölj högkostnadsskydd ▲';
+}
+
+/* Recept Wrapper */
+#recept-wrapper::after {
+    content:    ' ';
+    display:    block;
+    position:   absolute;
+    left:       0;
+    top:        0;
+    bottom:     0;
+    right:      0;
+    z-index:    -1;
+    width:      100%;
+    height:     100%;
+    opacity:    .3;
+    background: url('http://placekitten.com/384/240') no-repeat center center;
+    background-size:cover;
+}
+#recept-wrapper {
+    background: rgba(255,255,255,.45);
+    overflow:   hidden;
+    display:    block;
+    position:   relative;
+    text-align: center;
+    padding:    50px;
+}
+
+
+#recepts > .panel.panel-default {
+    border-radius: 0;
+}
+.panel-group .panel+.panel {
+    margin:0;
+}
+
+.panel-default>.panel-heading {
+    background: #fff;
+    padding:0;
+}
+
+.panel-default>.panel-heading > h4 > a {
+    padding:     20px 15px 20px 30px;
+    width:       100%;
+    display:     inline-block;
+    font-weight: bold;
+}
+.detailed-information .panel-default>.panel-heading > h4 > a {
+    padding: 15px 0;
+    letter-spacing: 0;
+}
+
+#recepts > .panel-default>.panel-heading>h4>a[aria-expanded="false"] {
+    background: #fff;
+}
+#recepts > .panel-default>.panel-heading>h4>a[aria-expanded="true"] {
+    background: #007233;
+    color:#fff;
+}
+/* Make side arrows turn when open */
+#recepts>.panel-default>.panel-heading>h4>a[aria-expanded="true"] i, 
+.detailed-information .panel-default>.panel-heading > h4 > a[aria-expanded="true"] i {
+    transform: rotate(180deg);
+    margin-top: -2px
+}
+
+/* Recepts Panel */
+#recepts-container>section {
+    margin: 20px 0;
+}
+#recepts-container>section:not(:first-child) {
+    margin-top:50px;
+}
+
+#recepts-container>section.inactive {
+    display:none;
+}
+
+.recept-item p.paid-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.purchase-history time {
+    font-weight: bold;
+}
+
+.buy-drug+a {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding-bottom:30px;
+}
+
+.recept-item .alert p {
+    font-size: .75rem;
+}
+
+
+
+
+.recept-item {
+    background: #F4F8F3;
+    padding:    20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .22)
+}
+
+.detailed-information .panel,
+.detailed-information .panel-heading,
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border: 0;
+    background: none;
+    box-shadow: none;
+}
+.glyphicon-refresh::before {
+    color: #30A3EF;
+    font-size: 1rem;
+}
+
+.glyphicon-warning-sign::before {
+    color: #DFD02F;
+}
+
+.doctor-prescription,
+.recept-item p {
+    font-size: .85rem;
+}
+
+.recept-item .panel-body {
+    background: #E7F1E6;
+}
+
+.recommended-prescription {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.detailed-information .panel-heading>h4>a {
+    color: #7E7B91;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: .5px;
+}
+
+.recept-detail {
+    background: #E7F1E6
+}
+
+.recept-detail .glyphicon-info-sign {
+    color: #007239;
+}
+
+.toggle-aktiv a span {
+    margin-left: .33rem;
+    letter-spacing: 2px;
+}
+
+.recept-detail .glyphicon-info-sign {
+    color: #007239;
+    font-size: 2rem;
+    padding-right: 15px;
+    max-width: 60px;
+}
+.recept-detail li {
+    margin:2rem 0 0 0;
+}
+
+.recept-detail__info,
+.recept-detail__info>div {
+    display: flex;
+    align-self: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.recept-detail__info {
+    padding: 15px 15px 25px 15px;
+}
+
+.recept-detail__info>div>span {
+    font-size: .8rem;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+
+
+/* Help Panel Tilted 270deg */
+
+.user__help button {
+    background: #007239;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 12px 15px 15px 15px;
+    border-radius: 5px 5px 0 0;
+}
+
+.user__help {
+    transform: rotate(270deg);
+    position: absolute;
+    top: 80px;
+    right: -18px;
+}
+.user__help:hover {
+    right:-15px;
+
+}
+.user__help:hover button {
+    background: #009944
+}
+
+
+ /* END USER HELP */
+/* User ViewMore Accordion */
+
+.user__view-more {
+    background: #EEF6E8;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.user__view-more>header {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.user__view-more>header>span {
+    flex: 1;
+    max-width: 40px;
+    color: #007237;
+    margin-top: 2px;
+    align-self: flex-start;
+
+}
+
+.user__view-more>header>section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.user__person-nummer {
+    font-weight: 400;
+}
+
+#view-more__collapse {
+    width: 100%;
+    background: #EEF6E8;
+    position: relative;
+}
+#view-more__collapse[aria-expanded="true"] {
+    display: inline-block;
+}
+
+#user__view-more-content h3 {
+    font-weight: bold;
+}
+
+
+/* END USER VIEWMORE */
+
+/* progress info */
+.progress-info {
+    text-align: left;
+    margin-top: 60px;
+}
+/* end progress info */
+
+/* Panel Footer */
+.recept-item .panel-footer {
+    margin: 0 -20px -20px;
+    background: #fff;
+}
+
+.recept-item .panel-footer footer>span {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    color: #9A95AA;
+    font-weight: bold;
+    font-size: .75rem;
+}
+/* End Panel Footer */
+
+/* Detailed Info on Drug */
+.panel h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.drug-more-info {
+    background: #F4F8F3;
+    padding: 20px 30px 30px 30px;
+    text-align: center;
+}
+
+.drug-more-info+a {
+    font-size: 1.1rem;
+    color: #0E0132;
+    border: 1px solid;
+    padding: 8px 20px;
+    display: flex;
+    text-align: center;
+    border-radius: 6px;
+    margin: 30px auto;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    max-width: 180px;
+    font-weight: bold;
+}
+/* END Detailed Info on Drug */
+
+.buy-drug,
+.buy-drug li {
+    display: flex;
+    flex: 1;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.buy-drug li:first-child {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.15rem;
+}
+
+.buy-drug sub {
+    font-size: .75rem;
+    margin-top: 6px;
+}
+
+.add-to-cart {
+    background: #007239;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+}
+.add-to-cart:hover {
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .25);
+    background: #00602a;
+
+}
+
+
+/* Main Footer */
+#main-footer {
+    text-align: center;
+    margin: 70px 0 20px 0;
+}
+
+#main-footer a,
+#main-footer p {
+    margin: 15px 0;
+}
+
+a[href="tel:0850502910"] {
+    color: #00663e;
+    font-weight: bold;
+}
+
+a[href="mailto:info@lloydsapotek.se"] {
+    color: #222BBF;
+
+}
+
+.to-top {
+    background: #EEF6E8;
+    display: block;
+    padding: 20px;
+    color: #00663e;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.official-business a img {
+    margin: 0;
+    display: inline-block;
+    width: 33% !important;
+    max-width: 180px;
+}
+
+.official-business a:last-child img {
+    width: 66% !important;
+    max-width: 360px;
+}
+
+#my-recept-list i {
+    color: #0E0132;
+    font-size: .8rem;
+    margin-right: 10px;
+}
+
+#my-recept-list a {
+    color: #00663e;
+    font-size: .9rem;
+}
+
+#bottom-footer h4 {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.official-business {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding: 10px 20px 50px;
+}
+
+a[aria-controls="hogkostnadsskydd"]::after {
+    display: none;
+}

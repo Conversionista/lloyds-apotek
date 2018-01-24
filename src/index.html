@@ -1,0 +1,1648 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>LLoyds Apotek </title>
+    <meta name="description" content="Lloyds Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <link rel="stylesheet" href="css/_base.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/_utils.css" />
+    <link rel="stylesheet" href="css/_components.css" />
+    <link rel="stylesheet" href="css/_site.css" />
+    <link rel="stylesheet" href="css/_mq.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800">
+
+    <link rel="stylesheet" href="css/_print.css" media="print" />
+
+
+  </head>
+  <body class="mina-recept">
+    
+    <header id="site-header" role="menubar">
+      <!-- main-menu -->
+      <div id="header-menu" role="banner">
+        <a id="menu-toggle" href="#" class="toggle glyphicon glyphicon-menu-hamburger menu-icons toggle-sidebar" role="button" title="Main Menu">Main Menu</a>
+
+        <a href="#butik" id="hitta-butik">Hitta butik <i class="glyphicon glyphicon-menu-down"></i></p>
+
+        <!-- User Menu -->
+        
+        <a href="#userProfilePage" class="glyphicon glyphicon-user menu-icons" id="user-profile-menu" title="User Menu">User Menu</a>
+
+      </div>
+
+      <nav id="sidebar-wrapper" role="navigation">
+        <!-- Header Logo -->
+        <!-- Base submenu -->
+        <section id="submenu" role="menubar">
+            <a id="menu-close" href="#" class="toggle">
+                <i class="glyphicon glyphicon-remove"></i>
+            </a>
+            
+            <h1 id="logo" role="img"> <!-- SEO Best Practice to have the Logo inside H1 -->
+                <a href="#" title="Lloyds Apotek Homepage">
+                    <!-- Full Canonical URL -->
+                    <img src="img/logo.png" alt="Lloyds Apotek Logo" />
+                    <!-- SVG Logo should be better for high res devices -->
+                </a>
+            </h1>
+            <form role="searchbox" autocomplete="on" action="" id="search-form">
+                <div class="has-feedback">
+                    <input type="text" id="menu-search" type="text" role="search" title="Search" placeholder="Sök recept" class="border-radius"
+                    />
+                    <input id="search_submit" value="Rechercher" type="submit">
+                </div>
+            </form>
+
+            <a id="menu-cart" href="#" class="toggle" role="button" title="My Cart"><i class="lloydscon g-brand">m​</i></a>
+
+        </section>
+        <!-- End Base Submenu -->
+        <section class="menu-cta">
+          <a href="#butik" title="hitta butik"><i class="glyphicon glyphicon-home"></i> Hitta butik</a>
+          <a href="#butik" title="hitta butik"><i class="glyphicon glyphicon-user"></i> Mina sidor</a>
+        </section>
+        <ul class="sidebar-nav">
+          <li class="has-submenu">
+            <a href="#">Produkter <i class="glyphicon glyphicon-chevron-right pull-right"></i></a>
+          </li>
+          <li class="has-submenu">
+            <a href="#">Mina recept <i class="glyphicon glyphicon-chevron-right pull-right"></i></a>
+          </li>
+          <li class="has-submenu">
+            <a href="#">Mina sidor <i class="glyphicon glyphicon-chevron-right pull-right"></i></a>
+          </li>
+          <li class="has-submenu">
+            <a href="#">Kundklubb <i class="glyphicon glyphicon-chevron-right pull-right"></i></a>
+          </li>
+          <li class="has-submenu">
+            <a href="#">Råd & tips <i class="glyphicon glyphicon-chevron-right pull-right"></i></a>
+          </li>
+          <li>
+            <a href="#">Öppettider</a>
+          </li>
+          <li>
+            <a href="#">Kundtjänst</a>
+          </li>
+          <li>
+            <a href="#">Om oss</a>
+          </li>
+          <li>
+            <a href="#">Logga ut</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Header Logo -->
+      <section id="submenu" class="tofixed" role="menubar">
+        <div>
+        <h1 id="logo" role="img"> <!-- SEO Best Practice to have the Logo inside H1 -->
+          <a href="#" title="Lloyds Apotek Homepage"><!-- Full Canonical URL -->
+            <img src="img/logo.png" alt="Lloyds Apotek Logo" /><!-- SVG Logo should be better for high res devices -->
+          </a>
+        </h1>
+        <nav id="desktop-menu" class="hidden-xs" role="navigation">
+          <ul>
+            <li><a href="#"><i class="lloydscon"></i> Our Stores</a></li>
+            <li><a href="#">Next day delivery</a></li>
+            <li><a href="#">Click & Collect</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#"><img src="img/user-icon.png"> Mina Sidor</a></li>
+          </ul>
+        </nav>
+        <a id="menu-toggle" href="#" class="toggle glyphicon glyphicon-menu-hamburger menu-icons toggle-sidebar hidden-xs" role="button" title="Main Menu">Main Menu</a>
+        </div>
+        <div>
+        <ul class="category-menu hidden-xs">
+          <li><a href="#" title="Lloyds Apotek Homepage">
+            <img src="img/logo.png" alt="Lloyds Apotek Logo">
+          </a></li>
+          <li><a href="#">Beauty</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Prescriptions</a></li>
+        </ul>
+        <form role="searchbox"  autocomplete="on" action="" id="search-form">
+          <div class="has-feedback">
+              <input type="text" id="menu-search" type="text" role="search" title="Search" placeholder="Sök recept" class="border-radius" />
+              <input id="search_submit" value="Rechercher" type="submit">
+          </div>
+        </form>
+
+        <a id="menu-cart" href="#" class="toggle glyphicon glyphicon-shopping-cart menu-icons" role="button" title="My Cart">My Cart</a>
+        </div>
+      </section>
+    </header>
+
+
+    <!-- Main Content of the page -->
+    <main id="main">
+      <section id="recept-wrapper">
+
+        <!-- User Info -->
+        <header>
+          <h2>Mina Recept</h2>
+          <p>
+            <span class="user__last-name">Nordin</span>, <span class="user__first-name">Andreas Hans Viktor</span>
+          </p>
+          <p class="user__person-nummer">19900221-XXXX</p>
+        </header>
+        
+        <!-- Help button and function -->
+        <div class="user__help">
+          <button aria-expanded="false" aria-controls="collapsible-0" data-toggle="modal" data-target=".modal-profile-lg" title="Hur kan vi hjälpa dig?">Hjälp?</button>
+          <section class="help-content">
+            <h3>Lorem Ipsum?</h3>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quod doloribus voluptates odio nulla porro quas tempore, eos deserunt maiores amet atque rerum tempora enim? Vitae eveniet corrupti totam cupiditate?</div>
+            <p>
+              <strong>Vill du veta ännu mer?</strong>
+            </p> 
+            <p>
+              <small>Läs mer på
+                  <a href="http://www.fass.se">www.fass.se</a>
+              </small>
+            </p>
+          </section>
+        </div>
+
+        <!-- Link Accordion -->
+        <div class="user__view-more">
+          <header>
+            <span class="glyphicon glyphicon-ok">️</span>
+            <section>
+              <strong>Du har 50% subventionerad kostnad</strong>
+              <a role="button" class="collapsed" data-toggle="collapse" href="#view-more__collapse" aria-expanded="false" aria-controls="view-more__collapse"></a>
+            </section>
+          </header>
+
+          <section class="collapse" id="view-more__collapse" aria-expanded="false">
+            <section class="user__view-more-content" id="user__view-more-content">
+              <header>
+                <h3>Ditt aktuella högkostnadsskydd</h3>
+                <a href="#sa-funkar-hogkostnadsskydd-lightbox" 
+                   aria-expanded="false" 
+                   aria-controls="hogkostnadsskydd" 
+                   data-toggle="modal" 
+                   data-target=".modal-profile-lg" 
+                   title="<img src='img/question-icon-lightbox.png'>Så funkar högkostnadsskyddet" 
+                   class="d-blue">
+                   <i class="glyphicon glyphicon-info-sign">️</i> Så funkar högkostnadsskyddet
+                </a>
+
+
+                <div class="user__view-sa-funkar-hogkostnadsskydd">
+                  <section class="hogkostnadsskydd-content">
+                    <p>Högkostnadsskyddet för sjukvård innebär att du inte behöver betala mer än 2 200 kronor för receptläkemedel eller stomiprodukter
+                    inom en period på tolv månader.</p>
+                    <section class="explainer">
+                      <h4>Det viktigaste</h4>
+                      <ul>
+                        <li>Du betalar högst 2200 kr för mediciner under en tolvmånadersperiod</li>
+                        <li>Upp till 1100 kr betalar du 100 %, sedan får du stegvis mer och mer rabatt</li>
+                        <li>Högkostnadsperioden gäller i 1 år från första inköp</li>
+                      </ul>
+                    </section>
+                    <section class="hogkostnadsskydd-accordion accordion">
+                      <h4>
+                        <a href="#">Vilka mediciner ingår?
+                          <i class="lloydscon pull-right">c</i>
+                        </a>
+                      </h4>
+                      <div class="inner">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores inventore, fuga nemo nulla maxime hic cumque libero ea illum, ipsam ex, laborum quasi officiis. Veniam beatae doloremque doloribus exercitationem!</p>
+                      </div>
+
+                      <h4>
+                        <a href="#">Vem har rätt till högkostnadsskydd?
+                          <i class="lloydscon pull-right">c</i>
+                        </a>
+                      </h4>
+                      <div class="inner">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores inventore, fuga nemo nulla maxime hic cumque libero ea illum, ipsam ex, laborum quasi officiis. Veniam beatae doloremque doloribus exercitationem!</p>
+                      </div>
+
+                      <h4>
+                        <a href="#">Vad ingår inte i högkostnadsskyddet?
+                          <i class="lloydscon pull-right">c</i>
+                        </a>
+                      </h4>
+                      <div class="inner">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores inventore, fuga nemo nulla maxime hic cumque libero ea illum, ipsam ex, laborum quasi officiis. Veniam beatae doloremque doloribus exercitationem!</p>
+                      </div>
+
+                      <h4>
+                        <a href="#">Se rabatttrappan för läkemedel
+                          <i class="lloydscon pull-right">c</i>
+                        </a>
+                      </h4>
+                      <div class="inner">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores inventore, fuga nemo nulla maxime hic cumque libero ea illum, ipsam ex, laborum quasi officiis. Veniam beatae doloremque doloribus exercitationem!</p>
+                      </div>
+
+                      <h4>
+                          <a href="#">Särskilda regler för preventivmedel
+                              <i class="lloydscon pull-right">c</i>
+                          </a>
+                      </h4>
+                      <div class="inner">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores inventore, fuga nemo nulla maxime hic cumque libero ea illum, ipsam ex, laborum quasi officiis. Veniam beatae doloremque doloribus exercitationem!</p>
+                      </div>
+
+                      <h4>
+                          <a href="#">Vad gäller för barn?
+                              <i class="lloydscon pull-right">c</i>
+                          </a>
+                      </h4>
+                      <div class="inner">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores inventore, fuga nemo nulla maxime hic cumque libero ea illum, ipsam ex, laborum quasi officiis. Veniam beatae doloremque doloribus exercitationem!</p>
+                      </div>
+                    </section>
+                    <footer>
+                      <p>
+                          <strong>Vill du veta ännu mer?</strong>
+                      </p>
+                      <br>
+                      <p>
+                          <small>Läs mer på
+                              <a href="http://www.fass.se">www.fass.se</a>
+                          </small>
+                      </p>
+                    </footer>
+                  </section>
+                </div>
+
+
+              </header>
+              <section class="progress-bar">
+                <div class="progress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar progress-bar-success active" role="progressbar" data-progress="50" style="width:50%"> <!-- Change the percentage to request like GET_USER_PERCENTAGE -->
+                    50% till frikort
+                  </div>
+                </div>
+            </section>
+            <section class="progress-info">
+              <p><strong>Du har <span class="progress__value">50%</span> <span class="progress__message">subventionerad kostnad</span></strong></p>
+              <p class="amount-paid">Du har hittills betalat <strong>1400 kr</strong></p>
+              <p class="amount-to-pay">Kvar till ditt frikort <strong>800 kr</strong></p>
+              <small>högkostnadsperioden gäller tom <time datetime="2017-12-25T00:00">2017-12-25</time></small>
+            </section>
+          </section>
+              <a role="button" class="collapsed" data-toggle="collapse" href="#view-more__collapse" aria-expanded="false" aria-controls="view-more__collapse"></a>
+          </section>
+          
+        </div>
+        <!-- End Link Accordion -->
+      </section>
+
+      <!-- Mina Recept Accordion // BootStrap Panel Group -->
+      <section class="panel-group detailed" id="recepts">
+
+        <!-- BootStrap Single Panel -->
+        <div class="panel panel-default">
+          <header class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#recepts" href="#recepts-content" class="collapsed">Mina Recept <span>(7<!-- {{USER.RECEPT.QTY}} -->)</span><i class="lloydscon pull-right">c​</i></a>
+            </h4>
+          </header>
+          
+          <!-- START USER DRUGS PANEL -->
+          <div id="recepts-content" class="panel-collapse collapse">
+            <div class="panel-body">
+              <!-- Mina Recept Sorting Navigation -->
+              <header>
+                <h4>Mina recept</h4>
+              </header>
+              <nav>
+                <section class="toggle-aktiv">
+                  <a id="aktiva-recept" href="javascript:void(0)" class="active">
+                    Aktiva Recept 
+                    <span> (2)<!-- {{USER.RECEPT.QTY}} --></span>
+                  </a>
+                  <a id="inaktiva-recept" href="javascript:void(0)" >
+                    Inaktiva Recept 
+                    <span> (5)<!-- {{USER.RECEPT.QTY}} --></span>
+                  </a>
+                </section>
+                <section class="sort-results">
+                  <p>
+                    <label for="list-details">Visa Som:</label>
+                    <select name="list-details" id="list-details" class="list-details">
+                      <option value="Detaljerad lista">Detaljerad lista</option>
+                      <option value="Forenklad lista">Förenklad lista</option>
+              
+                    </select>
+                  </p>
+              
+                  <p>
+                    <label for="list-details">Sortera på:</label>
+                    <select name="list-details" id="list-details">
+                      <option value="Senaste recept">Senaste recept</option>
+                      <option value="Aldsta recept">Äldsta recepten</option>
+                    </select>
+                  </p>
+                </section>
+              </nav>
+              <!-- END Mina Recept Sorting Navigation -->
+              
+              <!-- List of Recepts the client has on his profile -->
+              <article id="recepts-container">
+              
+                <!-- Single Item -->
+                <section id="recept-8591" class="recept-item">
+                  <header>
+                    <p class="doctor-prescription">
+                      <span class="glyphicon glyphicon-refresh"></span>
+                      <span class="recept-item__name-original">Pulmicort</span>,
+                      <span class="recept-item__type-original">inhal.pulv</span> -
+                      <span class="recept-item__type-original">200mikrogram/dos</span>
+                    </p>
+                    <a class="recommended-prescription" data-toggle="collapse" data-parent="#detail-recept-8591" href="#recept-detail-8591">
+                      <span class="recept-item__name-recommended">Propanol Accord</span>,
+                      <span class="recept-item__type-recommended">filmdragerad tablett</span> -
+                      <span class="recept-item__type-recommended">10mg</span>
+                    </a>
+                  </header>
+                  <!-- Drug name/size/type -->
+                  <p>
+                    <span>Blister</span>,
+                    <span>100</span>
+                    <span>tabletter</span>
+                  </p>
+              
+                  <!-- Detailed Information -->
+                  <div class="panel-group detailed-information detailed-information-mina-recept" id="detail-recept-8591">
+              
+              
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detail-recept-8591" href="#recept-detail-8591">
+                            <span class="lloydscon">A</span> Detaljerad receptinformation <i class="lloydscon pull-right">c</i></a>
+                        </h4>
+                      </div>
+                      <div id="recept-detail-8591" class="panel-collapse collapse recept-detail">
+                        <div class="panel-body">
+                          <header>
+                            <div class="recept-detail__info">
+                              <span class=" glyphicon glyphicon-info-sign"></span>
+                              <div>
+                                <span>{{DRUG.NAME}},</span>
+                                <span>{{DRUG.TYPE}}</span>
+                                <span>{{DRUG.DOSAGE}}</span>
+                              </div>
+                            </div>
+                            <p>{{DRUG.DESCRIPTION}}</p>
+                            <a href="{{DRUG.LINK}}" target="_blank" rel="nofollow">{{DRUG.LEARN_MORE}}</a>
+                          </header>
+              
+                          <!-- Start Drug Description List -->
+                          <ul>
+                            <li>
+                              <h5>Uttag Kvar</h5>
+                              <p>{{DRUG.REMAINING}} av {{DRUG.TOTAL}}</p>
+                            </li>
+                            <li>
+                              <h5>Förskrivningsdatum</h5>
+                              <time datetime="{{DRUG.PRESCRIBING_ISO_FORMAT}}">{{DRUG.PRESCRIBING_HUMAN_FORMAT}}</time>
+                            </li>
+                            <li>
+                              <h5>Giltigt tom</h5>
+                              <time datetime="{{DRUG.VALID_ISO_FORMAT}}">{{DRUG.VALID_HUMAN_FORMAT}}</time>
+                            </li>
+                            <li>
+                              <h5>Dosering</h5>
+                              <p>{{DRUG.PATIENT_DOSAGE}}</p>
+                            </li>
+                            <li>
+                              <h5>Aktiv substans</h5>
+                              <p>{{DRUG.AKTIV_SUBSTANS}}</p>
+                            </li>
+                            <li>
+                              <h5>Förpackningstext</h5>
+                              <p>{{DRUG.PACKAGE_TEXT}}</p>
+                            </li>
+                            <li>
+                              <h5>Återstående mängd att ta ut</h5>
+                              <p>{{DRUG.REMAINING_AMOUNT}}</p>
+                            </li>
+                          </ul>
+                          <!-- END Drug Description List -->
+              
+                          <div class="drug-more-info">
+                            <p>Vill du veta ännu mer?</p>
+                            <a href="{{DRUG.LINK}}" target="_blank" rel="nofollow">{{DRUG.LEARN_MORE}}</a>
+                          </div>
+              
+                          <a data-toggle="collapse" data-parent="#detail-recept-8591" href="#recept-detail-8591" class="collapse-footer">Minimera</a>
+              
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END Accordion Panel Mina Recept -->
+              
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detail-recept-8591" href="#cheaper-product-85912">
+                            <i class="lloydscon l-blue">n​</i> Din vara är utbytt mot billigare <i class="lloydscon pull-right">c</i></a>
+                        </h4>
+                      </div>
+                      <div id="cheaper-product-85912" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vero inventore maxime nemo optio dolores nostrum,
+                            delectus soluta quis dolor unde saepe porro officia. Quis blanditiis aperiam nesciunt debitis exercitationem!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+              
+              
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detail-recept-8591" href="#recept-info-8591">
+                            <span class="lloydscon yellow">O️</span> Viktig Information för receptet <i class="lloydscon pull-right">c</i></a>
+                        </h4>
+                      </div>
+                      <div id="recept-info-8591" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quasi nesciunt quaerat sapiente obcaecati architecto,
+                            ipsam delectus illo. Temporibus, laudantium beatae quae sequi nisi dolorum tempore consectetur fugit repellat
+                            sed! Eaque, natus reiciendis asperiores corrupti nostrum repudiandae consequatur veniam impedit autem ad ratione
+                            numquam nulla ab non. Voluptatem, sunt cupiditate.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+              
+                  </div>
+                  <!-- END of Panel Group -->
+                  <div class="panel-footer">
+                    <footer>
+                      <ul class="buy-drug">
+                        <li>
+                          <strong class="drug-total-price">1 280,40</strong>
+                          <sub> kr/st</sub><!-- {{DRUG.PRICE}} -->
+                        </li>
+                        <li>
+                          <span id="subtractDrug" class="input-number-decrement">–</span>
+                          <input class="input-number" type="text" value="1" min="1" max="100" aria-valuemax="100">
+                          <!-- Change value to query {{DRUG.CART_CURRENT}} -->
+                          <span id="addDrug" class="input-number-increment">+</span>
+
+                        </li>
+                        <li>
+                          <button class="add-to-cart">Köp</button>
+                        </li>
+                      </ul>
+                      <span><i class="lloydscon l-gray">m</i> Hemleverans (<time>1-3d</time><!-- {{DRUG.TIME_DELIVERY}} -->) eller hämta i apotek (2h)</span>
+                    </footer>
+                  </div>
+              
+              
+                </section>
+                <!-- End Single Item -->
+
+
+                <!-- Single Item -->
+                <section id="recept-8592" class="recept-item">
+                  <header>
+                    <p class="doctor-prescription">
+                      <span class="glyphicon glyphicon-refresh"></span>
+                      <span class="recept-item__name-original">Buventol Easyhaler</span>,
+                      <span class="recept-item__type-original">inhal.pulv</span> -
+                      <span class="recept-item__type-original">150mikrogram/dos</span>
+                    </p>
+                    <a class="recommended-prescription" data-toggle="collapse" data-parent="#detail-recept-8592" href="#recept-detail-8592">
+                      <span class="recept-item__name-recommended">Midrol P.</span>,
+                      <span class="recept-item__type-recommended">filmdragerad tablett</span> -
+                      <span class="recept-item__type-recommended">10mg</span>
+                    </a>
+                  </header>
+                  <!-- Drug name/size/type -->
+                  <p>
+                    <span>Blister</span>,
+                    <span>100</span>
+                    <span>tabletter</span>
+                  </p>
+                
+                  <!-- Detailed Information -->
+                  <div class="panel-group detailed-information detailed-information-mina-recept" id="detail-recept-8592">
+                
+                
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detail-recept-8592" href="#recept-detail-8592">
+                            <span class="lloydscon">A</span> Detaljerad receptinformation
+                            <i class="lloydscon pull-right">c</i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="recept-detail-8592" class="panel-collapse collapse recept-detail">
+                        <div class="panel-body">
+                          <header>
+                            <div class="recept-detail__info">
+                              <span class=" glyphicon glyphicon-info-sign"></span>
+                              <div>
+                                <span>{{DRUG.NAME}},</span>
+                                <span>{{DRUG.TYPE}}</span>
+                                <span>{{DRUG.DOSAGE}}</span>
+                              </div>
+                            </div>
+                            <p>{{DRUG.DESCRIPTION}}</p>
+                            <a href="{{DRUG.LINK}}" target="_blank" rel="nofollow">{{DRUG.LEARN_MORE}}</a>
+                          </header>
+                
+                          <!-- Start Drug Description List -->
+                          <ul>
+                            <li>
+                              <h5>Uttag Kvar</h5>
+                              <p>{{DRUG.REMAINING}} av {{DRUG.TOTAL}}</p>
+                            </li>
+                            <li>
+                              <h5>Förskrivningsdatum</h5>
+                              <time datetime="{{DRUG.PRESCRIBING_ISO_FORMAT}}">{{DRUG.PRESCRIBING_HUMAN_FORMAT}}</time>
+                            </li>
+                            <li>
+                              <h5>Giltigt tom</h5>
+                              <time datetime="{{DRUG.VALID_ISO_FORMAT}}">{{DRUG.VALID_HUMAN_FORMAT}}</time>
+                            </li>
+                            <li>
+                              <h5>Dosering</h5>
+                              <p>{{DRUG.PATIENT_DOSAGE}}</p>
+                            </li>
+                            <li>
+                              <h5>Aktiv substans</h5>
+                              <p>{{DRUG.AKTIV_SUBSTANS}}</p>
+                            </li>
+                            <li>
+                              <h5>Förpackningstext</h5>
+                              <p>{{DRUG.PACKAGE_TEXT}}</p>
+                            </li>
+                            <li>
+                              <h5>Återstående mängd att ta ut</h5>
+                              <p>{{DRUG.REMAINING_AMOUNT}}</p>
+                            </li>
+                          </ul>
+                          <!-- END Drug Description List -->
+                
+                          <div class="drug-more-info">
+                            <p>Vill du veta ännu mer?</p>
+                            <a href="{{DRUG.LINK}}" target="_blank" rel="nofollow">{{DRUG.LEARN_MORE}}</a>
+                          </div>
+                
+                          <a data-toggle="collapse" data-parent="#detail-recept-8592" href="#recept-detail-8592" class="collapse-footer">Minimera</a>
+                
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END Accordion Panel Mina Recept -->
+                
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detail-recept-8592" href="#cheaper-product-8592">
+                            <i class="lloydscon l-blue">n​</i> Din vara är utbytt mot billigare
+                            <i class="lloydscon pull-right">c</i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="cheaper-product-8592" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vero inventore maxime nemo optio dolores nostrum,
+                            delectus soluta quis dolor unde saepe porro officia. Quis blanditiis aperiam nesciunt debitis exercitationem!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                
+                
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detail-recept-8592" href="#recept-info-8592">
+                            <span class="lloydscon yellow">O️</span> Viktig Information för receptet
+                            <i class="lloydscon pull-right">c</i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="recept-info-8592" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quasi nesciunt quaerat sapiente obcaecati architecto,
+                            ipsam delectus illo. Temporibus, laudantium beatae quae sequi nisi dolorum tempore consectetur fugit repellat
+                            sed! Eaque, natus reiciendis asperiores corrupti nostrum repudiandae consequatur veniam impedit autem ad ratione
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                
+                  </div>
+                  <!-- END of Panel Group -->
+                  <div class="panel-footer">
+                    <footer>
+                      <ul class="buy-drug">
+                        <li>
+                          <strong class="drug-total-price">314,25</strong>
+                          <sub> kr/st</sub>
+                        </li>
+                        <li>
+                          <span id="subtractDrug" class="input-number-decrement">–</span>
+                          <input class="input-number" type="text" value="1" min="1" max="100" aria-valuemax="100">
+                          <span id="addDrug" class="input-number-increment">+</span>
+                
+                        </li>
+                        <li>
+                          <button class="add-to-cart">Köp</button>
+                        </li>
+                      </ul>
+                      <span>
+                        <i class="lloydscon l-gray">m</i> Hemleverans (
+                        <time>1-3d</time>
+                        <!-- {{DRUG.TIME_DELIVERY}} -->) eller hämta i apotek (2h)</span>
+                    </footer>
+                  </div>
+                
+                
+                </section>
+                <!-- End Single Item -->
+
+                <!-- Single Item -->
+                <section id="recept-8593" class="recept-item">
+                  <header>
+                    <p class="doctor-prescription">
+                      <span class="glyphicon glyphicon-refresh"></span>
+                      <span class="recept-item__name-original">Sambro Ipsum</span>,
+                      <span class="recept-item__type-original">lorem</span> -
+                      <span class="recept-item__type-original">1kg/dos</span>
+                    </p>
+                    <a class="recommended-prescription" data-toggle="collapse" data-parent="#detail-recept-8593" href="#recept-detail-8593">
+                      <span class="recept-item__name-recommended">Dernim Kvar</span>,
+                      <span class="recept-item__type-recommended">filmdragerad tablett</span> -
+                      <span class="recept-item__type-recommended">150kg</span>
+                    </a>
+                  </header>
+                  <!-- Drug name/size/type -->
+                  <p>
+                    <span>Super Blister</span>,
+                    <span>200</span>
+                    <span>tabletter</span>
+                  </p>
+                
+                  <!-- Detailed Information -->
+                  <div class="panel-group detailed-information detailed-information-mina-recept" id="detail-recept-8593">
+                
+                
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detail-recept-8593" href="#recept-detail-8593">
+                            <span class="lloydscon">A</span> Detaljerad receptinformation
+                            <i class="lloydscon pull-right">c</i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="recept-detail-8593" class="panel-collapse collapse recept-detail">
+                        <div class="panel-body">
+                          <header>
+                            <div class="recept-detail__info">
+                              <span class=" glyphicon glyphicon-info-sign"></span>
+                              <div>
+                                <span>{{DRUG.NAME}},</span>
+                                <span>{{DRUG.TYPE}}</span>
+                                <span>{{DRUG.DOSAGE}}</span>
+                              </div>
+                            </div>
+                            <p>{{DRUG.DESCRIPTION}}</p>
+                            <a href="{{DRUG.LINK}}" target="_blank" rel="nofollow">{{DRUG.LEARN_MORE}}</a>
+                          </header>
+                
+                          <!-- Start Drug Description List -->
+                          <ul>
+                            <li>
+                              <h5>Uttag Kvar</h5>
+                              <p>{{DRUG.REMAINING}} av {{DRUG.TOTAL}}</p>
+                            </li>
+                            <li>
+                              <h5>Förskrivningsdatum</h5>
+                              <time datetime="{{DRUG.PRESCRIBING_ISO_FORMAT}}">{{DRUG.PRESCRIBING_HUMAN_FORMAT}}</time>
+                            </li>
+                            <li>
+                              <h5>Giltigt tom</h5>
+                              <time datetime="{{DRUG.VALID_ISO_FORMAT}}">{{DRUG.VALID_HUMAN_FORMAT}}</time>
+                            </li>
+                            <li>
+                              <h5>Dosering</h5>
+                              <p>{{DRUG.PATIENT_DOSAGE}}</p>
+                            </li>
+                            <li>
+                              <h5>Aktiv substans</h5>
+                              <p>{{DRUG.AKTIV_SUBSTANS}}</p>
+                            </li>
+                            <li>
+                              <h5>Förpackningstext</h5>
+                              <p>{{DRUG.PACKAGE_TEXT}}</p>
+                            </li>
+                            <li>
+                              <h5>Återstående mängd att ta ut</h5>
+                              <p>{{DRUG.REMAINING_AMOUNT}}</p>
+                            </li>
+                          </ul>
+                          <!-- END Drug Description List -->
+                
+                          <div class="drug-more-info">
+                            <p>Vill du veta ännu mer?</p>
+                            <a href="{{DRUG.LINK}}" target="_blank" rel="nofollow">{{DRUG.LEARN_MORE}}</a>
+                          </div>
+                
+                          <a data-toggle="collapse" data-parent="#detail-recept-8593" href="#recept-detail-8593" class="collapse-footer">Minimera</a>
+                
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END Accordion Panel Mina Recept -->
+                
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detail-recept-8593" href="#cheaper-product-8593">
+                            <i class="lloydscon l-blue">n​</i> Din vara är utbytt mot billigare
+                            <i class="lloydscon pull-right">c</i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="cheaper-product-8593" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vero inventore maxime nemo optio dolores nostrum,
+                            delectus soluta quis dolor unde saepe porro officia. Quis blanditiis aperiam nesciunt debitis exercitationem!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                
+                
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detail-recept-8593" href="#recept-info-8593">
+                            <span class="lloydscon yellow">O️</span> Viktig Information för receptet
+                            <i class="lloydscon pull-right">c</i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="recept-info-8593" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quasi nesciunt quaerat sapiente obcaecati architecto,
+                            ipsam delectus illo. Temporibus, laudantium beatae quae sequi nisi dolorum tempore consectetur fugit repellat
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                
+                  </div>
+                  <!-- END of Panel Group -->
+                  <div class="panel-footer">
+                    <footer>
+                      <ul class="buy-drug">
+                        <li>
+                          <strong class="drug-total-price">314,25</strong>
+                          <sub> kr/st</sub>
+                        </li>
+                        <li>
+                          <span id="subtractDrug" class="input-number-decrement">–</span>
+                          <input class="input-number" type="text" value="1" min="1" max="100" aria-valuemax="100">
+                          <span id="addDrug" class="input-number-increment">+</span>
+                
+                        </li>
+                        <li>
+                          <button class="add-to-cart">Köp</button>
+                        </li>
+                      </ul>
+                      <span>
+                        <i class="lloydscon l-gray">m</i> Hemleverans (
+                        <time>1-3d</time>
+                        <!-- {{DRUG.TIME_DELIVERY}} -->) eller hämta i apotek (2h)</span>
+                    </footer>
+                  </div>
+                
+                
+                </section>
+                <!-- End Single Item -->
+
+
+
+
+                <!-- Single Item Inactive -->
+                <section id="recept-85912" class="recept-item inactive">
+                  <header>
+                    <div class="alert alert-danger">
+                      <p>Receptet gick ut: <strong><time>2017-10-05</time> (4 dagar sedan)</strong><br>
+                        Orsak: <strong>Sit Commodo</strong></p>
+                    </div>
+                    <p class="doctor-prescription">
+                      <span class="glyphicon glyphicon-refresh"></span>
+                      <span class="recept-item__name-original">Pulmicort</span>,
+                      <span class="recept-item__type-original">inhal.pulv</span> -
+                      <span class="recept-item__type-original">200mikrogram/dos</span>
+                    </p>
+                    <p class="recommended-prescription">
+                      <span class="recept-item__name-recommended">Propanol Accord</span>,
+                      <span class="recept-item__type-recommended">filmdragerad tablett</span> -
+                      <span class="recept-item__type-recommended">10mg</span>
+                    </p>
+                  </header>
+                  <!-- Drug name/size/type -->
+                  <p>
+                    <span>Blister</span>,
+                    <span>100</span>
+                    <span>tabletter</span>
+                  </p>
+                  <p class="paid-price">129 kr/st</p>
+                  <ul class="purchase-history">
+                    <li>Förskrivningsdatum: <time>2016-03-05</time></li>
+                    <li>Förskrivet av: <strong>Lena Läkarsson</strong></li>
+                    <li>Senaste uttag: <time>2017-02-01</time></li>
+                  </ul>
+                  
+                  <!-- END of Panel Group -->
+                  <div class="panel-footer">
+                    <footer>
+                      <ul class="buy-drug">
+                        <li>
+                          <button class="add-to-cart">Förnya recept online</button>
+                        </li>
+                      </ul>
+                      <a href="#">Så går det till att förnya recept online</a>
+                    </footer>
+                  </div>
+                </section>
+                <!-- End Single Item Inactive -->
+              </article>
+              <!-- End Loop of Items -->
+
+            </div>
+
+            <!-- Mina Recept Panel Footer -->
+          </div>
+          <!-- END USER DRUGS PANEL -->
+
+        </div>
+        <!-- END MINA RECEPT PANEL DEFAULT -->
+        
+        <!-- 
+          #
+          #
+          #
+        -->
+
+        <!-- START MINA FULLMAKTER PANEL -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#recepts" href="#my-dependant" class="collapsed">Mina fullmakter <i class="lloydscon pull-right">c​</i></a>
+            </h4>
+          </div>
+          <div id="my-dependant" class="panel-collapse collapse">
+            <!-- START MY dependant PANEL BODY -->
+            <div class="panel-body">
+              <header>
+                <nav class="dependant__info">
+
+                  <a href="#sa-funkar-fullmakter-lightbox" 
+                    aria-expanded="false" 
+                    aria-controls="fullmakter-lightbox" 
+                    data-toggle="modal" 
+                    data-target=".modal-profile-lg" 
+                    title="<img src='img/question-icon-lightbox.png'>Så funkar fullmakter" 
+                    class="d-blue">
+                    <i class="lloydscon">r</i> Så funkar fullmakter
+                  </a>
+                  <a id="manage-dependants"><span class="glyphicon glyphicon-cog"></span> Hantera fullmakter</a>
+
+                  <!-- Fullmakter Lightbox -->
+                  <div class="user__view-sa-funkar-fullmakter">
+                    <section class="fullmakter-content">
+                      <p>Du kan hämta ut läkemedel för andra än dig själv, men då krävs en fullmakt.</p>
+                      <section class="explainer">
+                        <h4>Det viktigaste</h4>
+                        <ul>
+                          <li>Med en fullmakt kan du beställa och hämta ut läkemedel och hämta ut receptlistor åt andra</li>
+                          <li>Finns ingen fullmakt måste personen skapa det genom att logga in med bankid eller lämna in en fullmaktsblankett på ett apotek</li>
+                          <li>Vill du hämta ut recept för dina barn krävs ingen fullmakt, endast deras personnummer</li>
+                        </ul>
+                      </section>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti totam nihil maiores? Voluptate commodi eveniet hic illum ut delectus cupiditate alias, laborum est accusantium, eos officiis perferendis facere quisquam ipsa?
+                    </section>
+                  </div>
+                </nav>
+
+                <h4>Mina fullmakter</h4>
+                <p>Här finner du de personer du har fullmakt för, välj för vem recepten ska visas.</p>
+              </header>
+              
+              <form action="#" id="dependant-selector">
+                <section>
+                  <h4>Fullmakter för barn</h4>
+                  <p>
+                    <input type="radio" id="kids1" name="dependant" checked>
+                    <label for="kids1">Barnen Björnsson<!-- {{dependantS.KID.LASTNAME}}, {{dependantS.KID.NAME}} -->
+                      <br>
+                      <span>200810225592<!-- {{dependantS.KID.PERSONNUMMER}} --></span>
+                    </label>
+                  </p>
+                  <p>
+                    <input type="radio" id="kids2" name="dependant">
+                    <label for="kids2">Jonas Lundman<!-- {{dependantS.KID.LASTNAME}}, {{dependantS.KID.NAME}} -->
+                      <br>
+                      <span>200405032254<!-- {{dependantS.KID.PERSONNUMMER}} --></span>
+                    </label>
+                  </p>
+                  <a id="addKidDependant" class="add-dependant">
+                      <i class="lloydscon">+</i>
+                      <span>Lägg till fullmakter för barn</span>
+                  </a>
+                </section>
+
+                <section>
+                  <h4>Övriga fullmakter</h4>
+                  <p>
+                    <input type="radio" id="others" name="dependant">
+                    <label for="others">Joel Grey<!-- {{dependantS.OTHER.LASTNAME}}, {{dependantS.OTHER.NAME}} -->
+                      <br>
+                      <span>196205101520<!-- {{dependantS.OTHER.PERSONNUMMER}} --></span>
+                      <br>
+                    </label>
+                  </p>
+                  <a id="addDependant" class="add-dependant">
+                      <i class="lloydscon">+</i>
+                      <span>Lägg till fullmakter</span>
+                  </a>
+
+                  <section class="hogkostnadsskydd">
+                    <p class="other-hogkostnadsskyd collapse" id="other-id-hogkostnadsskyd" aria-expanded="false">
+                      Bacon ipsum dolor amet doner picanha tri-tip biltong leberkas salami meatball tongue filet mignon landjaeger tail. Kielbasa
+                      salami tenderloin picanha spare ribs, beef ribs strip steak jerky cow. Pork chop chicken ham hock beef ribs turkey jerky.
+                      Shoulder beef capicola doner, tongue tail sausage short ribs andouille. Rump frankfurter landjaeger t-bone
+                    </p>
+                    <a role="button" class="collapsed" data-toggle="collapse" href="#other-id-hogkostnadsskyd" aria-expanded="false" aria-controls="other-id-hogkostnadsskyd"></a>
+                  </section>
+                </section>
+              </form>
+
+              
+              <!-- Start Recept Cloned Area -->
+              <nav>
+                <section class="toggle-aktiv">
+                  <a id="dependant-aktiva-recept" href="javascript:void(0)" class="active">
+                    Aktiva Recept
+                    <span> (8)<!-- {{dependant.RECEPT.QTY}} --></span>
+                  </a>
+                  <a id="dependant-inaktiva-recept" href="javascript:void(0)" >
+                    Inaktiva Recept
+                    <span> (3)<!-- {{dependant.RECEPT.QTY}} --></span>
+                  </a>
+                </section>
+                <section class="sort-results">
+                  <p>
+                    <label for="dependant-list-details">Visa Som:</label>
+                    <select name="dependant-list-details" id="dependant-list-details" class="list-details">
+                      <option value="Detaljerad lista">Detaljerad lista</option>
+                      <option value="Forenklad lista">Förenklad lista</option>
+                    </select>
+                  </p>
+              
+                  <p>
+                    <label for="dependant-list-details">Sortera på:</label>
+                    <select name="dependant-list-details" id="dependant-list-details" class="list-details">
+                      <option value="Senaste recept">Senaste recept</option>
+                      <option value="Aldsta recept">Äldsta recepten</option>
+                    </select>
+                  </p>
+                </section>
+              </nav>
+              <!-- END Mina Recept Sorting Navigation -->
+              <hr>
+              
+              <!-- List of Recepts the client has on his profile -->
+              <article id="dependant-recepts-container">
+              
+                <!-- Single Item -->
+                <section id="dependant-recept-8591" class="recept-item">
+                  <header>
+                    <p class="doctor-prescription">
+                      <span class="glyphicon glyphicon-refresh"></span>
+                      <span class="dependant-recept-item__name-original">Pulmicort</span>,
+                      <span class="dependant-recept-item__type-original">inhal.pulv</span> -
+                      <span class="dependant-recept-item__type-original">200mikrogram/dos</span>
+                    </p>
+                    <a class="recommended-prescription" data-toggle="collapse" data-parent="#detail-dependant-recept-8591" href="#dependant-recept-detail-8591">
+                      <span class="dependant-recept-item__name-recommended">Propanol Accord</span>,
+                      <span class="dependant-recept-item__type-recommended">filmdragerad tablett</span> -
+                      <span class="dependant-recept-item__type-recommended">10mg</span>
+                    </a>
+                  </header>
+                  <!-- Drug name/size/type -->
+                  <p>
+                    <span>Blister</span>,
+                    <span>100</span>
+                    <span>tabletter</span>
+                  </p>
+                
+                  <!-- Detailed Information -->
+                  <div class="panel-group detailed-information detailed-information-mina-recept" id="detail-dependant-recept-8591">
+                
+                
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detail-dependant-recept-8591" href="#dependant-recept-detail-8591">
+                            <span class="lloydscon">A</span> Detaljerad receptinformation
+                            <i class="lloydscon pull-right">c</i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="dependant-recept-detail-8591" class="panel-collapse collapse dependant-recept-detail">
+                        <div class="panel-body">
+                          <header>
+                            <div class="dependant-recept-detail__info">
+                              <span class=" glyphicon glyphicon-info-sign"></span>
+                              <div>
+                                <span>{{DRUG.NAME}},</span>
+                                <span>{{DRUG.TYPE}}</span>
+                                <span>{{DRUG.DOSAGE}}</span>
+                              </div>
+                            </div>
+                            <p>{{DRUG.DESCRIPTION}}</p>
+                            <a href="{{DRUG.LINK}}" target="_blank" rel="nofollow">{{DRUG.LEARN_MORE}}</a>
+                          </header>
+                
+                          <!-- Start Drug Description List -->
+                          <ul>
+                            <li>
+                              <h5>Uttag Kvar</h5>
+                              <p>{{DRUG.REMAINING}} av {{DRUG.TOTAL}}</p>
+                            </li>
+                            <li>
+                              <h5>Förskrivningsdatum</h5>
+                              <time datetime="{{DRUG.PRESCRIBING_ISO_FORMAT}}">{{DRUG.PRESCRIBING_HUMAN_FORMAT}}</time>
+                            </li>
+                            <li>
+                              <h5>Giltigt tom</h5>
+                              <time datetime="{{DRUG.VALID_ISO_FORMAT}}">{{DRUG.VALID_HUMAN_FORMAT}}</time>
+                            </li>
+                            <li>
+                              <h5>Dosering</h5>
+                              <p>{{DRUG.PATIENT_DOSAGE}}</p>
+                            </li>
+                            <li>
+                              <h5>Aktiv substans</h5>
+                              <p>{{DRUG.AKTIV_SUBSTANS}}</p>
+                            </li>
+                            <li>
+                              <h5>Förpackningstext</h5>
+                              <p>{{DRUG.PACKAGE_TEXT}}</p>
+                            </li>
+                            <li>
+                              <h5>Återstående mängd att ta ut</h5>
+                              <p>{{DRUG.REMAINING_AMOUNT}}</p>
+                            </li>
+                          </ul>
+                          <!-- END Drug Description List -->
+                
+                          <div class="drug-more-info">
+                            <p>Vill du veta ännu mer?</p>
+                            <a href="{{DRUG.LINK}}" target="_blank" rel="nofollow">{{DRUG.LEARN_MORE}}</a>
+                          </div>
+                
+                          <a data-toggle="collapse" data-parent="#detail-dependant-recept-8591" href="#dependant-recept-detail-8591" class="collapse-footer">Minimera</a>
+                
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END Accordion Panel Mina Recept -->
+                
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detail-dependant-recept-8591" href="#cheaper-product-8591">
+                            <i class="lloydscon l-blue">n​</i> Din vara är utbytt mot billigare
+                            <i class="lloydscon pull-right">c</i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="cheaper-product-8591" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vero inventore maxime nemo optio dolores nostrum,
+                            delectus soluta quis dolor unde saepe porro officia. Quis blanditiis aperiam nesciunt debitis exercitationem!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                
+                
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detail-dependant-recept-8591" href="#dependant-recept-info-8591">
+                            <span class="lloydscon yellow">O️</span> Viktig Information för receptet
+                            <i class="lloydscon pull-right">c</i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="dependant-recept-info-8591" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quasi nesciunt quaerat sapiente obcaecati architecto,
+                            ipsam delectus illo. Temporibus, laudantium beatae quae sequi nisi dolorum tempore consectetur fugit repellat
+                            sed! Eaque, natus reiciendis asperiores corrupti nostrum repudiandae consequatur veniam impedit autem ad ratione
+                            numquam nulla ab non. Voluptatem, sunt cupiditate.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                
+                  </div>
+                  <!-- END of Panel Group -->
+                  <div class="panel-footer">
+                    <footer>
+                      <ul class="buy-drug">
+                        <li>
+                          <strong class="drug-total-price">1 280,40</strong>
+                          <sub> kr/st</sub>
+                          <!-- {{DRUG.PRICE}} -->
+                        </li>
+                        <li>
+                          <span id="subtractDrug" class="input-number-decrement">–</span>
+                          <input class="input-number" type="text" value="1" min="1" max="100" aria-valuemax="100">
+                          <!-- Change value to query {{DRUG.CART_CURRENT}} -->
+                          <span id="addDrug" class="input-number-increment">+</span>
+                
+                        </li>
+                        <li>
+                          <button class="add-to-cart">Köp</button>
+                        </li>
+                      </ul>
+                      <span>
+                        <i class="lloydscon l-gray">m</i> Hemleverans (
+                        <time>1-3d</time>
+                        <!-- {{DRUG.TIME_DELIVERY}} -->) eller hämta i apotek (2h)</span>
+                    </footer>
+                  </div>
+                
+                
+                </section>
+                <!-- End Single Item -->
+              
+              </article>
+              <!-- End Loop of Items -->
+
+            </div>
+            <!-- END MY dependant PANEL BODY -->
+            
+            <!-- START MY dependant PANEL FOOTER -->
+            <!-- END MY dependant PANEL FOOTER -->
+          </div>
+        </div>
+        <!-- END MINA FULLMAKTER PANEL -->
+
+        <!-- START DJUR PANEL -->
+
+
+        <!-- 
+                  #
+                  #
+                  #
+                -->
+        
+        <!-- START DJUR PANEL -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#recepts" href="#my-pets" class="collapsed">Recept för djur <i class="lloydscon pull-right">c​</i></a>
+            </h4>
+          </div>
+          <div id="my-pets" class="panel-collapse collapse">
+            <!-- START MY PETS PANEL BODY -->
+            <div class="panel-body">
+              <header>
+                <h4>Recept for Djur</h4>
+                <p>Här finner du recept för dina djur. De har lagts till automatiskt genom ditt personnummer.</p>
+              </header>
+        
+        
+        
+              <!-- Start Recept Cloned Area -->
+              <nav>
+                <section class="toggle-aktiv">
+                  <a id="aktiva-pet-recept" href="javascript:void(0)" class="active">
+                    Aktiva Recept
+                    <span> (72) <!-- {{PET.RECEPT.QTY}} --></span>
+                  </a>
+                  <a id="inaktiva-pet-recept" href="javascript:void(0)">
+                    Inaktiva Recept
+                    <span> (0) <!-- {{PET.RECEPT.QTY}} --></span>
+                  </a>
+                </section>
+                <section class="sort-results">
+                  <p>
+                    <label for="pet-list-details">Visa Som:</label>
+                    <select name="pet-list-details" id="pet-list-details" class="list-details">
+                      <option value="Detaljerad lista">Detaljerad lista</option>
+                      <option value="Forenklad lista">Förenklad lista</option>
+        
+                    </select>
+                  </p>
+        
+                  <p>
+                    <label for="pet-new-old">Sortera på:</label>
+                    <select name="pet-new-old" id="pet-new-old">
+                      <option value="Senaste recept">Senaste recept</option>
+                      <option value="Aldsta recept">Äldsta recepten</option>
+                    </select>
+                  </p>
+                </section>
+              </nav>
+              <!-- END Mina Recept Sorting Navigation -->
+              <hr>
+        
+              <!-- List of Recepts the client has on his profile -->
+              <article id="pets-recepts-container">
+        
+                <!-- Single Item -->
+                <section id="pet-recept-8591" class="recept-item">
+                  <header>
+                    <p class="doctor-prescription">
+                      <span class="glyphicon glyphicon-refresh"></span>
+                      <span class="pet-recept-item__name-original">Pulmicort</span>,
+                      <span class="pet-recept-item__type-original">inhal.pulv</span> -
+                      <span class="pet-recept-item__type-original">200mikrogram/dos</span>
+                    </p>
+                    <a class="recommended-prescription" data-toggle="collapse" data-parent="#detail-pet-recept-8591" href="#pet-recept-detail-8591">
+                      <span class="pet-recept-item__name-recommended">Propanol Accord</span>,
+                      <span class="pet-recept-item__type-recommended">filmdragerad tablett</span> -
+                      <span class="pet-recept-item__type-recommended">10mg</span>
+                    </a>
+                  </header>
+                  <!-- Drug name/size/type -->
+                  <p>
+                    <span>Blister</span>,
+                    <span>100</span>
+                    <span>tabletter</span>
+                  </p>
+                
+                  <!-- Detailed Information -->
+                  <div class="panel-group detailed-information detailed-information-mina-recept" id="detail-pet-recept-8591">
+                
+                
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detail-pet-recept-8591" href="#pet-recept-detail-8591">
+                            <span class="lloydscon">A</span> Detaljerad receptinformation
+                            <i class="lloydscon pull-right">c</i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="pet-recept-detail-8591" class="panel-collapse collapse pet-recept-detail">
+                        <div class="panel-body">
+                          <header>
+                            <div class="pet-recept-detail__info">
+                              <span class=" glyphicon glyphicon-info-sign"></span>
+                              <div>
+                                <span>{{DRUG.NAME}},</span>
+                                <span>{{DRUG.TYPE}}</span>
+                                <span>{{DRUG.DOSAGE}}</span>
+                              </div>
+                            </div>
+                            <p>{{DRUG.DESCRIPTION}}</p>
+                            <a href="{{DRUG.LINK}}" target="_blank" rel="nofollow">{{DRUG.LEARN_MORE}}</a>
+                          </header>
+                
+                          <!-- Start Drug Description List -->
+                          <ul>
+                            <li>
+                              <h5>Uttag Kvar</h5>
+                              <p>{{DRUG.REMAINING}} av {{DRUG.TOTAL}}</p>
+                            </li>
+                            <li>
+                              <h5>Förskrivningsdatum</h5>
+                              <time datetime="{{DRUG.PRESCRIBING_ISO_FORMAT}}">{{DRUG.PRESCRIBING_HUMAN_FORMAT}}</time>
+                            </li>
+                            <li>
+                              <h5>Giltigt tom</h5>
+                              <time datetime="{{DRUG.VALID_ISO_FORMAT}}">{{DRUG.VALID_HUMAN_FORMAT}}</time>
+                            </li>
+                            <li>
+                              <h5>Dosering</h5>
+                              <p>{{DRUG.PATIENT_DOSAGE}}</p>
+                            </li>
+                            <li>
+                              <h5>Aktiv substans</h5>
+                              <p>{{DRUG.AKTIV_SUBSTANS}}</p>
+                            </li>
+                            <li>
+                              <h5>Förpackningstext</h5>
+                              <p>{{DRUG.PACKAGE_TEXT}}</p>
+                            </li>
+                            <li>
+                              <h5>Återstående mängd att ta ut</h5>
+                              <p>{{DRUG.REMAINING_AMOUNT}}</p>
+                            </li>
+                          </ul>
+                          <!-- END Drug Description List -->
+                
+                          <div class="drug-more-info">
+                            <p>Vill du veta ännu mer?</p>
+                            <a href="{{DRUG.LINK}}" target="_blank" rel="nofollow">{{DRUG.LEARN_MORE}}</a>
+                          </div>
+                
+                          <a data-toggle="collapse" data-parent="#detail-pet-recept-8591" href="#pet-recept-detail-8591" class="collapse-footer">Minimera</a>
+                
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END Accordion Panel Mina Recept -->
+                
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detail-pet-recept-8591" href="#cheaper-product-8591">
+                            <i class="lloydscon l-blue">n​</i> Din vara är utbytt mot billigare
+                            <i class="lloydscon pull-right">c</i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="cheaper-product-8591" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vero inventore maxime nemo optio dolores nostrum,
+                            delectus soluta quis dolor unde saepe porro officia. Quis blanditiis aperiam nesciunt debitis exercitationem!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                
+                
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detail-pet-recept-8591" href="#pet-recept-info-8591">
+                            <span class="lloydscon yellow">O️</span> Viktig Information för receptet
+                            <i class="lloydscon pull-right">c</i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="pet-recept-info-8591" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quasi nesciunt quaerat sapiente obcaecati architecto,
+                            ipsam delectus illo. Temporibus, laudantium beatae quae sequi nisi dolorum tempore consectetur fugit repellat
+                            sed! Eaque, natus reiciendis asperiores corrupti nostrum repudiandae consequatur veniam impedit autem ad ratione
+                            numquam nulla ab non. Voluptatem, sunt cupiditate.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                
+                  </div>
+                  <!-- END of Panel Group -->
+                  <div class="panel-footer">
+                    <footer>
+                      <ul class="buy-drug">
+                        <li>
+                          <strong class="drug-total-price">1 280,40</strong>
+                          <sub> kr/st</sub>
+                          <!-- {{DRUG.PRICE}} -->
+                        </li>
+                        <li>
+                          <span id="subtractDrug" class="input-number-decrement">–</span>
+                          <input class="input-number" type="text" value="1" min="1" max="100" aria-valuemax="100">
+                          <!-- Change value to query {{DRUG.CART_CURRENT}} -->
+                          <span id="addDrug" class="input-number-increment">+</span>
+                
+                        </li>
+                        <li>
+                          <button class="add-to-cart">Köp</button>
+                        </li>
+                      </ul>
+                      <span>
+                        <i class="lloydscon l-gray">m</i> Hemleverans (
+                        <time>1-3d</time>
+                        <!-- {{DRUG.TIME_DELIVERY}} -->) eller hämta i apotek (2h)</span>
+                    </footer>
+                  </div>
+                
+                
+                </section>
+                <!-- End Single Item -->
+        
+              </article>
+              <!-- End Loop of Items -->
+        
+            </div>
+            <!-- END MY PET PANEL BODY -->
+        
+            <!-- START MY PET PANEL FOOTER -->
+            <!-- END MY PET PANEL FOOTER -->
+          </div>
+        </div>
+
+        <!-- END DJUR PANEL -->
+
+        <!-- 
+        #
+        #
+        #
+        -->
+        
+        <!-- START RECEPTLISTOR PANEL -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#recepts" href="#my-recipe-lists" class="collapsed">Mina receptlistor <i class="lloydscon pull-right">c​</i></a>
+            </h4>
+          </div>
+          <div id="my-recipe-lists" class="panel-collapse collapse">
+            <!-- START MY PETS PANEL BODY -->
+            <div class="panel-body">
+              <header>
+                <h4>Mina receptlistor</h4>
+                <p>Här kan du ta del av en lista över alla läkemedel du har hämtat ut.</p>
+              </header>
+              <div class="alert alert-info black" role="alert">
+                <i class="lloydscon">O​</i> <span>Observera att dessa registerutdrag innehåller personlig information</span>
+              </div>
+              <div class="public-computer">
+                <p>
+                  Om du använder en publik dator, eller en dator du delar med folk du inte vill ska se din personliga information:
+                  <ul>
+                    <li>Rensa webbhisotik när du är klar</li>
+                    <li>Se till att pdf-filen inte sparats i nedladdade filer</li>
+                  </ul>
+                </p>
+              </div>
+              <input id="i-agree" name="i-agree" type="checkbox">
+              <label for="i-agree">Jag förstår riskerna med att hämta personlig information</label>
+              <button id="view-recept-list" class="btn btn-primary">Visa receptlistor</button>
+              <section id="my-recept-list">
+                <h4>Läkemedelsförteckning</h4>
+                <ul class="recept-list__drug-list">
+                  <li>
+                    <a href="#"><i class="glyphicon glyphicon-new-window"></i> Min Läkemedelsförteckning</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="glyphicon glyphicon-new-window"></i> Läkemedelsförteckning för [name]</a>
+                  </li>
+                </ul>
+
+                <h4>Sparade recept (aktiva recept)</h4>
+                <ul class="recept-list__activate">
+                  <li>
+                    <a href="#"><i class="glyphicon glyphicon-new-window"></i> Mina sparade recept</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="glyphicon glyphicon-new-window"></i> Sparade recept för [barn/fullmakt]</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="glyphicon glyphicon-new-window"></i> Mina sparade djurrecept</a>
+                  </li>
+                </ul>
+              </section>
+            </div>
+            <!-- END MY RECEPTLISTOR PANEL BODY -->
+        
+            <!-- START MY RECEPTLISTOR PANEL FOOTER -->
+            
+            <!-- END MYRECEPTLISTORPET PANEL FOOTER -->
+          </div>
+        </div>
+        <!-- END RECEPTLISTOR PANEL -->
+
+        <!-- Tablet / Desktop Only Extra Content -->
+        <section id="big-screen" class="row hidden-xs">
+          <div class="panel panel-default col-sm-3">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a href="#" class="collapsed">Logga ut</a>
+                  </h4>
+              </div>
+              <h3 class="side-header">Undrar du över något?</h3>
+              <ul class="sideitems">
+                  <li>
+                      <img src="img/headphones.jpg">
+                      <a href="tel:0850510400">08-505 104 00</a>
+                      <span>Öppettider: vardagar 8-17</span>
+                  </li>
+                  <li>
+                      <img src="img/mail.jpg">
+                      <a href="mailto:info@lloydsapotek.se">info@lloydsapotek.se</a>
+                      <span>Vi svarar innom 24 timmar</span>
+                  </li>
+              </ul>
+          </div>
+          <div id="loader" class="col-sm-9">
+            <section class="panel-group detailed" id="recepts">
+
+            </section>
+          </div>
+        </section>
+        
+        <footer id="main-footer">
+          <section id="top-footer">
+            <h2>Undrar du över något?</h2>
+            <a href="tel:0850502910">Ring oss på: 08-505 029 10</a>
+            <p>Öppet: man - fre, kl 8 - 17</p>
+            <a href="mailto:info@lloydsapotek.se">info@lloydsapotek.se</a>
+            <a href="#" class="to-top">Tillbaka till toppen</a>
+          </section>
+          <section id="bottom-footer">
+            <div class="official-business">
+              <a href="#">
+                <img src="img/swedish_pharmacy.png">
+              </a>
+              <a href="#">
+                <img src="img/apotek-tillstand-.png">
+              </a>
+            </div>
+            <a href="#" title="Lloyds Apotek Homepage">
+              <img src="img/logo.png" alt="Lloyds Apotek Logo">
+            </a>
+            <h4>Kundtjänst / Vanliga frågor</h4>
+            <h4>Köp- och leverandsvillkor</h4>
+            <h4>Om Lloyds Apotek</h4>
+          </section>
+        </footer>
+      </section>
+      
+      <!-- End Recept Wrapper -->
+
+      <!-- Lightbox container -->
+      <div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button class="close" type="button" data-dismiss="modal">×</button>
+              <h3 class="modal-title"></h3>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal">Stäng</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <a href="#" class="hidden-xs to-top">Tillbaka till toppen</a>
+    <footer class="desktop-footer hidden-xs" role="contentinfo">
+      <a href="#" title="Lloyds Apotek Homepage">
+          <img src="img/logo.png" alt="Lloyds Apotek Logo">
+      </a>
+      <section class="row">
+        <div class="col-sm-3">
+          <h3>Customer Service</h3>
+          <a href="#">Lorem ipsum</a>
+          <a href="#">Dolor sit</a>
+          <a href="#">Amet</a>
+        </div>
+
+        <div class="col-sm-3">
+          <h3>Shop With Us</h3>
+          <a href="#">Lorem ipsum</a>
+          <a href="#">Dolor sit</a>
+          <a href="#">Amet</a>
+        </div>
+        
+        <div class="col-sm-3">
+          <h3>Our Services</h3>
+          <a href="#">Lorem ipsum</a>
+          <a href="#">Dolor sit</a>
+          <a href="#">Amet</a>
+        </div>
+
+        <div class="col-sm-3">
+          <h3>What's New</h3>
+          <a href="#">Lorem ipsum</a>
+          <a href="#">Dolor sit</a>
+          <a href="#">Amet</a>
+        </div>
+
+        <div class="col-sm-3">
+        </div>
+      </section>
+
+    </footer>
+      
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js"></script>
+
+    <!-- smoosh -->
+    <!-- build:js js/main.js -->
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+    <!-- endsmoosh -->
+  </body>
+</html>

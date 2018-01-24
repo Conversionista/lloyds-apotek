@@ -1,0 +1,10 @@
+{
+    "name": "Lloyds Apotek",
+    "description": "Conversionista Base HTML/CSS/JS for Lloyds Apotek.",
+    "icons": [{
+        "src": "icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }],
+    "start_url": "/"
+}

@@ -1,0 +1,464 @@
+/* ==========================================================================
+   Media Queries for Responsive Design.
+   ========================================================================== */
+
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Tablet and Medium screens */
+@media only screen and (min-width: 768px) {
+
+    /* Remove from Desktop */
+    #menu-toggle,
+    #header-menu,
+    .user__help,
+    .user__view-more>header,
+    .user__view-more-content+a,
+    #recepts>.panel-default>.panel-heading+.panel-collapse,
+    #main-footer,
+    .category-menu.hidden-xs li:first-child  {
+        display: none;
+    }
+    
+    /* Sticky Rules */
+
+    .is-sticky.sticky-wrapper>div {
+        margin-left: -15px;
+        box-sizing: initial;
+        border-left: 15px solid #fff;
+        max-width: 100%;
+        box-shadow: -2px 1px 3px rgba(0, 0, 0, .2);
+    }
+
+    .is-sticky .category-menu.hidden-xs li:first-child {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    /* Main Header of the page */
+
+    #submenu {
+        flex-direction: column;
+        border-top: 5px solid #EEF6E8;
+        padding: 0 0 10px 0;
+    }
+
+    #submenu div {
+        width: 100%;
+        display: flex;
+        background:#fff;
+    }
+
+    #submenu > div {
+        padding-left: 15px;
+    }
+
+    #submenu div:first-child nav {
+        width: 100%;
+    }
+
+    #desktop-menu ul {
+        display: flex;
+        height: 100%;
+        justify-content: flex-end;
+    }
+
+    #desktop-menu li {
+        align-self: center;
+    }
+
+    #desktop-menu li a {
+        padding: 25px .7rem;
+        color: #007239;
+        font-weight: bold;
+        font-size: .8rem;
+    }
+
+    #desktop-menu li a:hover {
+        background: #EEF6E8;
+    }
+
+    #desktop-menu a img {
+        margin-top: -10px;
+    }
+
+    .category-menu {
+        width: 33%;
+        display: flex;
+        margin: 0;
+    }
+
+    .category-menu li {
+        flex: 1;
+        align-self: center;
+    }
+
+    .category-menu li a {
+        padding: 15px 20px 15px 0;
+        color: #007239;
+        font-weight: bold;
+        font-size: .9rem;
+    }
+
+    .category-menu li a:hover {
+        text-decoration: underline !important;
+    }
+
+    #menu-search {
+        width: 240px !important;
+        border: 2px solid #ccc !important;
+        max-width: 90% !important;
+    }
+    /* End Page Header */
+
+    /* Page Main */
+    /* Header */
+    #recept-wrapper {
+        padding: 30px 0 0 20px;
+        min-height: 250px;
+        overflow: inherit;
+    }
+
+
+    #recept-wrapper>header {
+        max-width: 35%;
+        text-align: left;
+        font-weight:bold;
+    }
+    /* User View More Content */
+    .user__view-more {
+        height: auto !important;
+    }
+
+    .user__view-more .collapse {
+        display: inline-block !important;
+    }
+    .user__view-more {
+        width: 66%;
+        left: 33%;
+        position: absolute;
+        top: 200px;
+        border-radius: 0;
+    }
+    #recept-wrapper::after {
+        max-width: 66%;
+        right: 0;
+        left: 33%;
+    }
+
+    #view-more__collapse>section>header {
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+        min-width: 100%;
+        pointer-events: all
+    }
+
+    #view-more__collapse>section>header h3 {
+        font-size: 1rem;
+    }
+
+    /* Panel sidebar left */
+    #recepts>.panel{
+        max-width: 250px;
+        border: 0 none;
+        box-shadow: none;
+    }
+
+    #recepts>.panel-default>.panel-heading>h4>a,
+    #big-screen>.panel-default>.panel-heading>h4>a {
+        padding: 15px;
+        color: #007239 !important;
+        background: #fff !important;
+        border-left: 5px solid transparent;
+        font-weight: 400;
+    }
+
+    #recepts>.panel-default>.panel-heading>h4>a i,
+    #big-screen>.panel-default>.panel-heading>h4>a i {
+        transform: rotate(270deg) !important;
+        color: #0E0132;
+    }
+    #recepts>.panel-default>.panel-heading>h4>a[aria-expanded="true"] {
+        border-color: #007239;
+        font-weight:bold;
+    }
+    #recepts>.panel-default>.panel-heading>h4>a:hover{
+        border-color: #007239;
+    }
+
+    #recepts>.panel-default>.panel-heading>h4>a[aria-expanded="true"] i,
+    #big-screen>.panel-default>.panel-heading>h4>a[aria-expanded="true"] i {
+        margin-top:2px;
+    }
+    /* Extra links sidebar footer */
+    .side-header {
+        font-size: 1rem;
+    }
+
+    .side-header+ul,
+    .side-header {
+        margin-left: 20px;
+    }
+
+    .side-header+ul li {
+        padding: 10px 0;
+    }
+
+    .side-header+ul li img {
+        float: left;
+        margin:5px 10px 0 0;
+    }
+
+    .side-header+ul li a {
+        width: calc(100% - 50px);
+        display: inline-block;
+    }
+    .panel-group .panel {
+        border: none;
+        box-shadow: none;
+    }
+    #loader {
+        margin-top:50px;
+    }
+    
+    /* Desktop Footer */
+    .desktop-footer {
+        padding:20px 40px
+    }
+    .desktop-footer a {
+        width:100%;
+        display:inline-block;
+        padding:5px 0 0;
+        color:#0E0132
+    }
+
+    .desktop-footer h3 {
+        color:#007239;
+        font-weight:bold;
+        font-size:.85rem;
+    }
+
+    /* Sort/Filter */
+
+    .toggle-aktiv a {
+        padding: 2px;
+        line-height: 1.5;
+    }
+
+    .toggle-aktiv {
+        height: 35px;
+    }
+
+    .toggle-aktiv a:after {
+        margin-top: 29px !important;
+    }
+
+    .sort-results {
+        margin: 0;
+    }
+
+
+    #loader h3 i {
+        display:none;
+    }
+    .sort-results select {
+        font-size: .85rem;
+    }
+
+    /* Recepts Container */
+
+    /* Dependant Form */
+    #dependant-selector {
+        margin: 2rem 0;
+    }
+    #dependant-selector {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+
+    #dependant-selector>section {
+        flex: 1;
+        max-width: 49%;
+    }
+
+    #dependant-selector>section label {
+        padding: 20px;
+        width: 100%;
+        border: 1px solid transparent;
+        font-size: 1rem;
+    }
+
+    #dependant-selector>section label:hover {
+        background: #EEF6E8;
+    }
+
+    #dependant-selector>section input:checked+label {
+        border-color: #007239;
+        background: #EEF6E8;
+        text-decoration: none;
+    }
+
+    #dependant-selector>section input:checked+label span,
+    #dependant-selector>section input+label span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        vertical-align: top;
+        margin-left: 35px;
+    }
+
+    #dependant-selector>section input+label:before {
+        width: 18px;
+        height: 18px;
+        background: transparent;
+    }
+
+    #dependant-selector>section input:checked+label:before {
+        border-color: #007239;
+    }
+
+    #dependant-selector>section input:checked+label:after {
+        width: 10px;
+        height: 10px;
+        top: 40px;
+        left: 26px;
+        background: #007239;
+    }
+    #dependant-selector h4 {
+        margin-left:0;
+    }
+
+    #loader>#recepts>.panel-body {
+        padding:0;
+    }
+
+    #loader .add-dependant {
+        font-size: .75rem;
+    }
+
+    #loader .add-dependant i {
+        font-size: 1.5rem;
+        margin: -5px 10px 5px 23px;
+    }
+
+
+    /* Drug Panel */
+    .panel-footer footer {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .recept-item .panel-footer footer>span {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .buy-drug .add-to-cart {
+        width: 100%;
+    }
+
+    .buy-drug li:first-child {
+        text-align: right;
+    }
+
+    /* Panel Default */
+    #loader header h4 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 20px 0 10px;
+    }
+
+
+    /* Make panels always open on tablet + */ 
+    #loader>#recepts:not(.simplified) .detailed-information div:not(:first-child) div+div {
+        display: block;
+        height: auto !important;
+    }
+    #loader>#recepts:not(.simplified) .detailed-information div:not(:first-child) .panel-heading>h4>a i:last-child {
+        display:none;
+    } 
+
+
+
+}
+
+/* Big Screens */
+@media only screen and (min-width: 1024px) {
+    #dependant-selector>section input:checked+label:after {
+        top: 42px;
+    }
+
+    .user__view-more {
+        width: 73%;
+        left: 25.5%;
+    }
+    #recept-wrapper::after {
+        max-width: 73%;
+        left: 25.5%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    #menu-search {
+        width: 100% !important;
+    }
+
+    #recepts>.panel-body>nav {
+        display: flex;
+    }
+    .toggle-aktiv {
+        margin: 0;
+        flex: 2;
+    }
+    .sort-results {
+        margin: 0 0 0 40px;
+        flex: 1;
+    }
+
+    .sort-results label {
+        opacity: 0;
+        line-height: 0;
+        position: absolute;
+    }
+
+    .progress {
+        max-width: 50%;
+        min-width: 50%;
+        right: 10%;
+    }
+
+    .progress-info {
+        margin-top: 10px;
+    }
+    #loader {
+        margin-top:0;
+    }
+    /* Dependant */
+    #dependant-selector>section {
+        padding: 10px;
+        background: #f9f9f9;
+        border: 1px solid transparent;
+    }
+
+    #dependant-selector>section:nth-child(even) {
+        background: #f9f9f9
+    }
+
+    #dependant-selector>section:hover {
+        border-color: #000;
+        background: #fff;
+    }
+
+    /* Drugs */
+    .recept-item {
+        max-width: 98%;
+        min-width: 98%;
+    }
+
+
+}

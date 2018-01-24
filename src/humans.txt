@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Andreas Nordin -- @
+    Marie Horneman -- @
+    Pedro Ferrari  -- @thepedroferrari
+
+# THANKS
+
+    Mickael Daniel -- @mklabs
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Gulp, HTML5 Boilerplate, Normalize.css
+    Source: https://github.com/h5bp/html5boilerplate.com

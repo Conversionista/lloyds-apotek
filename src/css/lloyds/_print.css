@@ -1,0 +1,92 @@
+.thumb a[href]:after,  .name a[href]:after, .site-logo a[href]:after, button, .btn, .header-placeholder, .navigations-wrapper, .breadcrumb-section, .main-footer, .related-products, .main-product-navigation, .main-article-navigation, .sort-refine-bar, .pagination-wrap, .a2a_kit, .shortcuts-wrap, .media-list, .filter-list, .product-in-store-wrp, .product-details .streamline-marker-ok.icon, .product-details .streamline-marker-ok.icon + a {
+	display: none !important;
+}
+
+.red {
+	color: #D71920 !important;
+}
+
+.product-warnings {
+	page-break-inside : avoid;
+}
+
+.main-header .js-scroll-attach {
+	position: relative !important;
+	border-bottom: none;
+}
+
+.site-logo {
+	position: relative;
+	padding: 1em 0;
+	left: 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 100%;
+}
+
+.main-container {
+	padding: 15px;
+}
+
+.qty:before {
+	content: 'Antall:';
+}
+.total:before {
+	content: 'Totalpris:';
+}
+.tabs .content .tabbody {
+	page-break-after: always;
+	page-break-before: always;
+}
+.tabs .tabhead + .tabbody {
+	display: block !important;
+}
+
+/* Product listing */
+
+.product-listing.product-grid .product-item {
+	padding: 0;
+	page-break-after: auto;
+	page-break-inside : avoid;
+}
+.product-listing.product-grid .product-item .panel {
+	height: auto !important;
+}
+
+/* Checkout order summary */
+
+.checkout-order-summary .checkout-order-summary-list .col-xs-12.col-sm-5 {
+	width: 41.66666667% !important;
+}
+
+.checkout-order-summary .checkout-order-summary-list .col-xs-12.col-sm-7 {
+	width: 	58.33333333% !important;
+}
+
+.checkout-order-summary .checkout-order-summary-list li.product > div > div,
+.checkout-order-summary .checkout-order-summary-list li.section > div > div,
+.checkout-order-summary .checkout-order-summary-list li.delivery > div > div {
+  display: table-cell;
+  vertical-align: middle; 
+}
+
+/* Owl carousel */
+
+.product-image-wrap .carousel {
+	display: block !important;
+}
+
+.product-image-wrap .carousel .owl-wrapper {
+	width: 100% !important;
+}
+
+.product-image-wrap .carousel .owl-item {
+	display: none;
+	width: 100% !important;
+}
+
+.product-image-wrap .carousel .owl-item:first-child {
+	display: block;
+}

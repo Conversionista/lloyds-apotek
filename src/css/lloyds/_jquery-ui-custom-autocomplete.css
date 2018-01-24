@@ -1,0 +1,19 @@
+body > .ui-autocomplete {
+  position: absolute;
+  z-index: 10;
+  list-style-type: none;
+  border: 1px solid #E0E0E0;
+  box-shadow: 0 0 40px 0 #CCC;
+  padding: 0;
+  background: #FFF;
+}
+
+body > .ui-autocomplete li {
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+body > .ui-autocomplete li:hover,
+body > .ui-autocomplete .ui-state-focus {
+  background: #E0E0E0;
+}

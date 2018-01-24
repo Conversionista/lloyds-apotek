@@ -1,0 +1,162 @@
+<nav>
+                <section class="toggle-aktiv">
+                  <a id="aktiva-recept">
+                    Aktiva Recept
+                    <span>{{PET.RECEPT.QTY}}</span>
+                  </a>
+                  <a id="inaktiva-recept">
+                    Inaktiva Recept
+                    <span>{{PET.RECEPT.QTY}}</span>
+                  </a>
+                </section>
+                <section class="sort-results">
+                  <p>
+                    <label for="list-details">Visa Som:</label>
+                    <select name="list-details" id="list-details">
+                      <option value="Detaljerad lista">Detaljerad lista</option>
+                      <option value="Forenklad lista">Förenklad lista</option>
+                       
+                    </select>
+                  </p>
+
+                  <p>
+                    <label for="list-details">Sortera på:</label>
+                    <select name="list-details" id="list-details">
+                      <option value="Senaste recept">Senaste recept</option>
+                      <option value="Aldsta recept">Äldsta recepten</option>
+                    </select>
+                  </p>
+                </section>
+              </nav>
+              <!-- END Mina Recept Sorting Navigation -->
+              <hr>
+
+              <!-- List of Recepts the client has on his profile -->
+              <article id="recepts-container">
+
+                <!-- Single Item -->
+                <section id="recept-8591" class="recept-item">
+                  <header>
+                    <p class="doctor-prescription">
+                      <span class="glyphicon glyphicon-refresh"></span>
+                      <span class="recept-item recept-item__name-original">Pulmicort</span>,
+                      <span class="recept-item recept-item__type-original">inhal.pulv</span> - 
+                      <span class="recept-item recept-item__type-original">200mikrogram/dos</span>
+                    </p>
+                    <p class="recommended-prescription">
+                      <span class="recept-item recept-item__name-recommended">Propanol Accord</span>,
+                      <span class="recept-item recept-item__type-recommended">filmdragerad tablett</span> - 
+                      <span class="recept-item recept-item__type-recommended">10mg</span>
+                    </p>
+                  </header>
+                  <!-- Drug name/size/type -->
+                  <p>
+                    <span>Blister</span>,
+                    <span>100</span>
+                    <span>tabletter</span>
+                  </p>
+
+                  <!-- Detailed Information -->
+                  <div class="panel-group" id="detailed-information-pet-recept">
+                  
+                  
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detailed-information-pet-recept" href="#recept-pet-detail"><span>💊</span> Detaljerad receptinformation</a>
+                        </h4>
+                      </div>
+                      <div id="recept-pet-detail" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                          <header>
+                            <p>
+                              <span class=" glyphicon glyphicon-info-sign">ℹ️</span> 
+                              <span>{{DRUG.NAME}}</span>
+                              <span>{{DRUG.TYPE}}</span>
+                              <span>{{DRUG.DOSAGE}}</span>
+                            </p>
+                            <p>{{DRUG.DESCRIPTION}}</p>
+                            <a href="{{DRUG.LINK}}" target="_blank" rel="nofollow">{{DRUG.LEARN_MORE}}</a>
+                          </header>
+
+                          <!-- Start Drug Description List -->
+                          <ul>
+                            <li>
+                              <h5>Uttag Kvar</h5>
+                              <p>{{DRUG.REMAINING}} av {{DRUG.TOTAL}}</p>
+                            </li>
+                            <li>
+                              <h5>Förskrivningsdatum</h5>
+                              <time datetime="{{DRUG.PRESCRIBING_ISO_FORMAT}}">{{DRUG.PRESCRIBING_HUMAN_FORMAT}}</time>
+                            </li>
+                            <li>
+                              <h5>Giltigt tom</h5>
+                              <time datetime="{{DRUG.VALID_ISO_FORMAT}}">{{DRUG.VALID_HUMAN_FORMAT}}</time>
+                            </li>
+                            <li>
+                              <h5>Dosering</h5>
+                              <p>{{DRUG.PATIENT_DOSAGE}}</p>
+                            </li>
+                            <li>
+                              <h5>Aktiv substans</h5>
+                              <p>{{DRUG.AKTIV_SUBSTANS}}</p>
+                            </li>
+                            <li>
+                              <h5>Förpackningstext</h5>
+                              <p>{{DRUG.PACKAGE_TEXT}}</p>
+                            </li>
+                            <li>
+                              <h5>Återstående mängd att ta ut</h5>
+                              <p>{{DRUG.REMAINING_AMOUNT}}</p>
+                            </li>
+                          </ul>
+                          <!-- END Drug Description List -->
+
+                          <div class="drug-more-info">
+                            <p>Vill du veta ännu mer?</p>
+                            <a href="{{DRUG.LINK}}" target="_blank" rel="nofollow">{{DRUG.LEARN_MORE}}</a>
+                          </div>
+                          
+                          <a data-toggle="collapse" data-parent="#detailed-information-mina-recept" href="#recept-detail" class="collapse-footer">Minimera</a>
+
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END Accordion Panel Mina Recept -->
+                  
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detailed-information-pet-recept" href="#cheaper-pet-product"><span class="glyphicon glyphicon-refresh"></span> Din vara är utbytt mot billigare</a>
+                        </h4>
+                      </div>
+                      <div id="cheaper-pet-product" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vero inventore maxime nemo optio dolores nostrum, delectus soluta quis dolor unde saepe porro officia. Quis blanditiis aperiam nesciunt debitis exercitationem!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  
+                  
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#detailed-information-pet-recept" href="#recipe-pet-info"><span class="glyphicon glyphicon-warning-sign">️</span> Viktig Information för receptet</a>
+                        </h4>
+                      </div>
+                      <div id="recipe-pet-info" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Lorem ipsum dolor sit </p>
+                        </div>
+                      </div>
+                    </div>
+                  
+                  </div>
+                  <!-- END of Panel Group -->
+
+                </section>
+                <!-- End Single Item -->
+
+              </article>
+              <!-- End Loop of Items -->

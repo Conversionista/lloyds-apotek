@@ -1,0 +1,57 @@
+/* Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+a:hover, a:focus {
+    text-decoration: none !important;
+}
+body {
+    width:100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body * {
+    font-family: 'Open Sans',
+                  Helvetica,
+                  Arial,
+                  sans-serif;
+}
+@font-face {
+    font-family: 'Lloyds Iconfont';
+    src: url('font/lloyds-icons-font.woff2') format('woff2'), 
+         url('font/lloyds-icons-font.woff')  format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body .lloydscon {
+    font-family: 'Lloyds Iconfont' !important;
+}
+/* Fluid Font */
+@media (min-width: 21rem) {
+     :root {
+        font-size: calc(1rem + ((1vw - 0.41rem) * 0.64));
+    }
+}
+
+
+/* Prevent font scaling beyond this breakpoint */
+
+@media (min-width: 64rem) {
+     :root {
+        font-size: 1.2rem;
+    }
+}
+
+.yellow  {color:#DFD02F !important}
+.l-blue  {color:#30A3EF !important}
+.d-blue  {color:#222BBF !important}
+.g-brand {color:#007239 !important}
+.l-green {color:#EEF6E8 !important}
+.green   {color:#89C943 !important}
+.black   {color:#0E0132 !important}
+.l-gray  {color:#9A95AA !important}
+.d-gray  {color:#585958 !important}
+
+
+/* REMOVE AFTER */
+html {
+    max-width: 1550px !important;
+}

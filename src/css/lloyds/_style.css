@@ -1,0 +1,292 @@
+@font-face {
+  font-family: 'streamline';
+  src:  url('fonts/streamline.eot?ywm1r2');
+  src:  url('fonts/streamline.eot?ywm1r2#iefix') format('embedded-opentype'),
+    url('fonts/streamline.ttf?ywm1r2') format('truetype'),
+    url('fonts/streamline.woff?ywm1r2') format('woff'),
+    url('fonts/streamline.svg?ywm1r2#streamline') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="streamline-"], [class*=" streamline-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'streamline' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.streamline-angle-down-border:before {
+  content: "\e908";
+}
+.streamline-note:before {
+  content: "\e907";
+}
+.streamline-e-resept-app .path1:before {
+  content: "\e901";
+  color: rgb(239, 237, 237);
+}
+.streamline-e-resept-app .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(141, 198, 63);
+}
+.streamline-e-resept-app .path3:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(141, 198, 63);
+}
+.streamline-e-resept-app .path4:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(141, 198, 63);
+}
+.streamline-e-resept-app .path5:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(141, 198, 63);
+}
+.streamline-e-resept-app .path6:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(0, 101, 46);
+}
+.streamline-watch:before {
+  content: "\e900";
+}
+.streamline-symbol-skincare .path1:before {
+  content: "\e800";
+  color: rgb(91, 196, 191);
+}
+.streamline-symbol-skincare .path2:before {
+  content: "\e801";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.streamline-customer-service .path1:before {
+  content: "\e622";
+  color: rgb(0, 91, 46);
+}
+.streamline-customer-service .path2:before {
+  content: "\e623";
+  margin-left: -1.0556640625em;
+  color: rgb(132, 191, 65);
+}
+.streamline-member .path1:before {
+  content: "\e624";
+  color: rgb(64, 64, 64);
+}
+.streamline-member .path2:before {
+  content: "\e625";
+  margin-left: -1em;
+  color: rgb(132, 191, 65);
+}
+.streamline-e-resept-app-old .path1:before {
+  content: "\e626";
+  color: rgb(255, 255, 255);
+}
+.streamline-e-resept-app-old .path2:before {
+  content: "\e627";
+  margin-left: -0.9814453125em;
+  color: rgb(132, 191, 65);
+}
+.streamline-e-resept-app-old .path3:before {
+  content: "\e628";
+  margin-left: -0.9814453125em;
+  color: rgb(132, 191, 65);
+}
+.streamline-e-resept-app-old .path4:before {
+  content: "\e629";
+  margin-left: -0.9814453125em;
+  color: rgb(0, 91, 45);
+}
+.streamline-e-resept-app-old .path5:before {
+  content: "\e62a";
+  margin-left: -0.9814453125em;
+  color: rgb(0, 91, 45);
+}
+.streamline-e-resept-app-old .path6:before {
+  content: "\e62b";
+  margin-left: -0.9814453125em;
+  color: rgb(0, 91, 45);
+}
+.streamline-e-resept-app-old .path7:before {
+  content: "\e62c";
+  margin-left: -0.9814453125em;
+  color: rgb(0, 91, 45);
+}
+.streamline-e-resept-app-old .path8:before {
+  content: "\e62d";
+  margin-left: -0.9814453125em;
+  color: rgb(0, 91, 45);
+}
+.streamline-e-resept-app-old .path9:before {
+  content: "\e62e";
+  margin-left: -0.9814453125em;
+  color: rgb(132, 191, 65);
+}
+.streamline-e-resept-app-old .path10:before {
+  content: "\e62f";
+  margin-left: -0.9814453125em;
+  color: rgb(132, 191, 65);
+}
+.streamline-e-resept-app-old .path11:before {
+  content: "\e630";
+  margin-left: -0.9814453125em;
+  color: rgb(132, 191, 65);
+}
+.streamline-e-resept-app-old .path12:before {
+  content: "\e631";
+  margin-left: -0.9814453125em;
+  color: rgb(132, 191, 65);
+}
+.streamline-e-resept-app-old .path13:before {
+  content: "\e632";
+  margin-left: -0.9814453125em;
+  color: rgb(132, 191, 65);
+}
+.streamline-e-resept-app-old .path14:before {
+  content: "\e633";
+  margin-left: -0.9814453125em;
+  color: rgb(132, 191, 65);
+}
+.streamline-key:before {
+  content: "\e613";
+}
+.streamline-user:before {
+  content: "\e614";
+}
+.streamline-help:before {
+  content: "\e612";
+}
+.streamline-pharmacy-icon:before {
+  content: "\e611";
+}
+.streamline-rss:before {
+  content: "\e63";
+}
+.streamline-vimeo:before {
+  content: "\e64";
+}
+.streamline-envelope:before {
+  content: "\e65";
+}
+.streamline-youtube:before {
+  content: "\e66";
+}
+.streamline-linkedin:before {
+  content: "\e67";
+}
+.streamline-facebook:before {
+  content: "\e68";
+}
+.streamline-instagram:before {
+  content: "\e69";
+}
+.streamline-pinterest:before {
+  content: "\e6a";
+}
+.streamline-google:before {
+  content: "\e6b";
+}
+.streamline-twitter:before {
+  content: "\e6c";
+}
+.streamline-profile:before {
+  content: "\e621";
+}
+.streamline-login:before {
+  content: "\e61f";
+}
+.streamline-new-user:before {
+  content: "\e620";
+}
+.streamline-dropdown:before {
+  content: "\e61e";
+}
+.streamline-legemiddel:before {
+  content: "\e61d";
+}
+.streamline-marker:before {
+  content: "\e618";
+}
+.streamline-edit-circle:before {
+  content: "\e615";
+}
+.streamline-edit:before {
+  content: "\e616";
+}
+.streamline-play:before {
+  content: "\e617";
+}
+.streamline-marker-ok:before {
+  content: "\e619";
+}
+.streamline-list-view:before {
+  content: "\e61a";
+}
+.streamline-grid-view:before {
+  content: "\e61b";
+}
+.streamline-document:before {
+  content: "\e61c";
+}
+.streamline-excamation-sign:before {
+  content: "\e60f";
+}
+.streamline-remove-circle:before {
+  content: "\e604";
+}
+.streamline-prescription:before {
+  content: "\e605";
+}
+.streamline-star:before {
+  content: "\e600";
+}
+.streamline-search:before {
+  content: "\e601";
+}
+.streamline-remove:before {
+  content: "\e602";
+}
+.streamline-remove-sign:before {
+  content: "\e603";
+}
+.streamline-plus:before {
+  content: "\e606";
+}
+.streamline-ok:before {
+  content: "\e607";
+}
+.streamline-ok-sign:before {
+  content: "\e608";
+}
+.streamline-minus:before {
+  content: "\e609";
+}
+.streamline-menu-up:before {
+  content: "\e60a";
+}
+.streamline-menu-right:before {
+  content: "\e60b";
+}
+.streamline-menu-left:before {
+  content: "\e60c";
+}
+.streamline-menu-down:before {
+  content: "\e60d";
+}
+.streamline-help-circle:before {
+  content: "\e60e";
+}
+.streamline-basket:before {
+  content: "\e610";
+}
