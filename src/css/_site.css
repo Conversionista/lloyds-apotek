@@ -361,7 +361,7 @@
     margin-top: 6px;
 }
 
-.add-to-cart {
+.add-to-cart, .ga-till-kry {
     background: #007239;
     border: none;
     border-radius: 5px;
@@ -369,7 +369,7 @@
     font-size: 1rem;
     color: #fff;
 }
-.add-to-cart:hover {
+.add-to-cart:hover, .ga-till-kry:hover {
     box-shadow: 0 3px 4px rgba(0, 0, 0, .25);
     background: #00602a;
 

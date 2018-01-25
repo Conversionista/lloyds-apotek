@@ -557,7 +557,8 @@ select:-moz-focusring {
 #profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
 .help-content,
 .user__view-sa-funkar-hogkostnadsskydd,
-.user__view-sa-funkar-fullmakter {
+.user__view-sa-funkar-fullmakter,
+.sa-gar-det-till-att-fornya-recept-online {
     display: none
 }
 
@@ -808,7 +809,8 @@ select:-moz-focusring {
 
 .modal-title {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.85rem;
+    line-height:1.25;
     font-weight: bold;
 }
 
@@ -849,20 +851,50 @@ select:-moz-focusring {
         border:none;
         padding: 20px 15px;
     }
-    
+
     .explainer ul li {
         font-size:14px;
     }
     .modal p {
         font-size:16px;
     }
-
+    .modal-title {
+        font-size: 1.5rem;
+    }
+    .modal-title img {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        top: 20px;
+    }
+    .modal-title {
+        margin-top: 110px;
+    }
 }
 
 .modal-body {
     max-width: 700px;
     margin: 0 auto;
     font-size: 20px;
+}
+.centered-link-button {
+    display: flex;
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.centered-link-button > * {
+    min-width: 200px;
+}
+.centered-link-button .lloydscon {
+    font-size:12px;
+    color:#2b2b2b;
 }
 
 

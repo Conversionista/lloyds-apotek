@@ -91,7 +91,6 @@
 
     // Så Funkar Fullmakter click
     $(document).on('click', 'a[href="#sa-funkar-fullmakter-lightbox"]', function(event) {
-        console.log('here');
         event.preventDefault();
         let content = $('.modal-body');
         content.empty();
@@ -112,6 +111,30 @@
             lightboxAccordion();
         }, 500);
     });
+
+    // Så Funkar Fullmakter click
+    $(document).on('click', 'a[href="#sa-gar-det-till-att-fornya-recept-online-lightbox"]', function (event) {
+        event.preventDefault();
+        let content = $('.modal-body');
+        content.empty();
+        let title = $(this).attr('title');
+        $('.modal-title').html(title);
+
+        content.html($(this)
+            .parent()
+            .find('.nya-recept-online-content')
+            .html()
+        );
+
+        $('.modal-profile').modal({
+            show: true
+        });
+
+        setTimeout(() => {
+            lightboxAccordion();
+        }, 500);
+    });
+
 
     
 
