@@ -561,6 +561,27 @@ select:-moz-focusring {
 .sa-gar-det-till-att-fornya-recept-online {
     display: none
 }
+.load-lightbox .modal-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.load-lightbox .modal-footer .btn-green {
+    background:#89C943;
+    color:#fff;
+    border-color: #89C943;
+}
+.load-lightbox .modal-footer button {
+    margin:5px 0;
+}
+
+.load-lightbox .top-footer {
+    text-align: center;
+}
+.modal-body .top-footer, #top-footer {
+    font-size: 24px;
+    font-weight: bold;
+}
 
 
 /* END modal lightbox */
@@ -843,6 +864,20 @@ select:-moz-focusring {
 }
 
 @media only screen and (max-width:500px) {
+    .modal-title header {    
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top:-80px
+    }
+    .modal-title header img {    
+        position: relative;    
+        left: 0;    
+        margin-left: 0;    
+        top: 0;
+        width: 50px;
+    }
     .explainer ul {
         margin-left: 30px;
     }
@@ -924,6 +959,7 @@ select:-moz-focusring {
 
 .modal-footer {
     text-align: center;
+    border:none;
 }
 
 .modal-footer button {
@@ -931,14 +967,14 @@ select:-moz-focusring {
     background: none;
     line-height: 1.25;
     font-weight: bold;
-    width: 160px;
+    min-width: 220px;
     font-size: 1.1rem;
     color: #0E0132;
     border: 1px solid;
-    padding: 8px 20px;
+    padding: 12px 20px;
     display: flex;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 2px;
     margin: 30px auto;
     justify-content: center;
     align-content: center;

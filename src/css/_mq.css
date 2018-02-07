@@ -2,8 +2,27 @@
    Media Queries for Responsive Design.
    ========================================================================== */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 360px) {
+    .help-content__inner {
+        max-width:100%;
+    }
+    .help-content__inner .sideitems * {
+        font-size: 18px;
+    }
+    .hjalp-foot {
+        padding: 20px 10px;
+    }
+    .hjalp-foot .sideitems img {
+        margin:10px 10px 0 0;
+        width:28px;
+        height: 28px;
+    }
+    .help-content__inner h3 {
+        font-size: 20px;
+    }
+}
 
+@media only screen and (max-width: 767px) {
 }
 
 /* Tablet and Medium screens */

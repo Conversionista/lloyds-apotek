@@ -136,6 +136,42 @@
     });
 
 
+    // First Page Load Ligthbox
+    $(function () {
+        let content = $('.modal-body');
+        content.empty();
+        let title = "<img src='img/question-icon-lightbox.png'>Hej, är det första gången du ska beställa läkemedel online?";
+        $('.modal-title').html(title);
+
+        content.html(`
+        <div class="load-lightbox">
+            <section class="load-lightbox__content">
+                <p>Vill du ha en snabb genomgång hur du går tillväga?</p>
+                <div class="modal-footer">
+                    <button class="btn btn-default btn-green" data-dismiss="modal" href="#">Ja tack</button>
+                    <button class="btn btn-default" data-dismiss="modal" >Nej tack</button>
+                </div>
+                <section class="top-footer">
+                    <h2>Undrar du över något?</h2>
+                    <a href="tel:0850502910">Ring oss på: 08-505 029 10</a>
+                    <p>Öppet: man - fre, kl 8 - 17</p>
+                </section>
+            </section>
+        </div>
+        `
+        );
+
+        $('.modal-profile').modal({
+            show: true
+        });
+        $('.load-lightbox').closest('.modal-dialog').find('.modal-content > .modal-footer').hide();
+
+        setTimeout(() => {
+            lightboxAccordion();
+        }, 500);
+    });
+
+
     
 
 
@@ -248,8 +284,8 @@
 
     // Simplified Drug List Class management
     function simplifyDrugList() {
-        $(".list-details").change(function () {
-            let selectedOption = $(this).find(":selected").text();
+        $('.list-details').change(function () {
+            let selectedOption = $(this).find(':selected').text();
             if (selectedOption === 'Förenklad lista') {
                 $(this).closest('.panel-group').addClass('simplified');
             }

@@ -4,23 +4,37 @@
 
 /* Pseudo Link Accordion */
 
+.user__view-more a.collapsed:after, .hogkostnadsskydd>a.collapsed:after {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAMAAADHqI+lAAAAP1BMVEXu9ujm7uDd5NjU28/M08fDyb66wLawtqymq6KdoZmcoJmSlo+HioSGiYN7fnlucGxtb2teX1xNTkxLTEozMzNrfMovAAAAR0lEQVQIHQXBCQKCMBAEsKyVAla5Ov9/q4nPKADex+LO+QLoyaquPA0YyYoaSUcdmQuwJbt25m4Afeb75CoA2kxGAUD9NsAfyHYCxacjxyYAAAAASUVORK5CYII=');
+    background-position:100%;
+    padding-right:22px;
+    background-repeat: no-repeat;
+    background-size:14px 7px;
+}
+.user__view-more a:not(.collapsed):after, .hogkostnadsskydd>a:not(.collapsed):after {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAMAAADHqI+lAAAAP1BMVEXu9ugzMzPm7uDDyb66wLamq6KSlo97fnlucGxtb2teX1xNTkxLTErU28+wtqzd5NidoZmcoJnM08eHioSGiYNTNOKFAAAARklEQVR42k2NgwHAUAxE876Vev9Va8W8k1v8YuQnJkDTX5+pM809vRaSygD+6m0jHgAOwpG7Pd+XlWyO/v3tE0VsnP5s4wZgbAGK3Cqi0AAAAABJRU5ErkJggg==');
+    background-position:100%;
+    padding-right:22px;
+    background-repeat: no-repeat;
+    background-size:14px 7px;
+}
 .user__view-more a.collapsed:after {
-    content: 'Visa mitt högkostnadsskydd ▼';
+    content: 'Visa mitt högkostnadsskydd';
 }
 
 .user__view-more a:not(.collapsed):after {
-    content: 'Visa mindre ▲';
+    content: 'Visa mindre';
 }
 
 
 /* Mina fullmakter Other visa hogkostnadsskydd */
 
 .hogkostnadsskydd>a.collapsed:after {
-    content: 'Visa högkostnadsskydd ▼';
+    content: 'Visa högkostnadsskydd';
 }
 
 .hogkostnadsskydd>a:not(.collapsed):after {
-    content: 'Dölj högkostnadsskydd ▲';
+    content: 'Dölj högkostnadsskydd';
 }
 
 /* Recept Wrapper */
@@ -169,7 +183,7 @@
 }
 
 .recept-detail .glyphicon-info-sign {
-    color: #007239;
+    color: #00602a;
 }
 
 .toggle-aktiv a span {
@@ -178,7 +192,7 @@
 }
 
 .recept-detail .glyphicon-info-sign {
-    color: #007239;
+    color: #00602a;
     font-size: 2rem;
     padding-right: 15px;
     max-width: 60px;
@@ -211,7 +225,7 @@
 /* Help Panel Tilted 270deg */
 
 .user__help button {
-    background: #007239;
+    background: #00602a;
     border: none;
     color: #fff;
     font-size: 20px;
@@ -233,7 +247,33 @@
     background: #009944
 }
 
-
+.hjalp-foot {
+    border: 1px solid #0E0132;
+    border-radius: 2px;
+    padding: 20px 10px 10px 40px
+}
+.hjalp-foot .sideitems img {
+    margin:10px 20px 0 0;
+    width: 38px;
+    height:38px;
+}
+.ga-till-contact {
+    margin: 25px auto;
+    display: block;
+    padding: 15px 30px;
+}
+.help-content__inner {
+    max-width:92%;
+    margin: 0 auto;
+}
+.help-content__inner h3 {
+    text-align: center;
+    font-weight: 600;
+    margin-top:50px;
+}
+.help-content__inner h4 a {
+    font-weight: 600;
+}
  /* END USER HELP */
 /* User ViewMore Accordion */
 
@@ -361,8 +401,8 @@
     margin-top: 6px;
 }
 
-.add-to-cart, .ga-till-kry {
-    background: #007239;
+.add-to-cart, .ga-till-kry, .ga-till-contact {
+    background: #00602a;
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
@@ -388,7 +428,7 @@
 }
 
 a[href="tel:0850502910"] {
-    color: #00663e;
+    color: #00602a;
     font-weight: bold;
 }
 
@@ -401,7 +441,7 @@ a[href="mailto:info@lloydsapotek.se"] {
     background: #EEF6E8;
     display: block;
     padding: 20px;
-    color: #00663e;
+    color: #00602a;
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
@@ -426,7 +466,7 @@ a[href="mailto:info@lloydsapotek.se"] {
 }
 
 #my-recept-list a {
-    color: #00663e;
+    color: #00602a;
     font-size: .9rem;
 }
 
@@ -444,4 +484,113 @@ a[href="mailto:info@lloydsapotek.se"] {
 
 a[aria-controls="hogkostnadsskydd"]::after {
     display: none;
+}
+
+
+/* KRY PAGE */
+.kry main > header {
+    text-align:center;
+}
+.kry main > header img {
+    padding:10px 20px 20px;
+    border-bottom:1px solid #ddd;
+    margin-top:15px;
+}
+.kry main > header h2 {
+    font-size:28px;
+    margin-bottom:50px;
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+
+.help-menu {
+    padding: 20px 30px;
+    text-align: center;
+    background: #00602a;
+    color: #fff;
+}
+
+.help-menu .dropdown > a {
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    text-align: left;
+    color: #000;
+    font-weight: bold;
+}
+
+.help-menu .dropdown-backdrop {
+    background: rgba(0,0,0,.5);
+}
+
+.help-menu .dropdown-menu {
+    width: calc(100% + 2px);
+    margin-top: -40px;
+    margin-left: -1px;
+    border-top: none;
+    border-radius: 5px;
+}
+.help-menu .dropdown.open > a > i {
+    display: none;
+}
+
+.dropdown-menu > li > a {
+    padding: 20px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-menu > li:last-child > a {
+    border-bottom:none;
+}
+
+
+
+.dropdown.open .dropdown-menu:before {
+    content: 'Jag vill...';
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px 0 20px;
+    border-radius: 5px 5px 0 0;
+    background: #fff;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+.who-is-lloyds h2 {
+    text-align:center
+}
+.who-is-lloyds img {
+    width:100%;
+    margin: 20px 0;
+}
+
+.lloyds-stats {
+    background:#f4f8e0;
+    padding:20px;
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+
+.lloyds-stats li {
+    padding:12px 0;
+    font-size:18px;
+    display:flex;
+    align-items:center;
+}
+
+.lloyds-stats li i {
+    margin-right:8px;
+    font-size:32px;
+    color:#007239;
+    min-width:60px;
+    text-align:center;
+}
+.lloyds-stats li i.small {
+    font-size:24px;
+    margin-left: -5px;
 }
